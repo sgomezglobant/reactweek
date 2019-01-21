@@ -1,23 +1,26 @@
-import React from "react";
+import React from 'react';
 
-import "./agenda.scss";
-
-const AgendaCard = ({ image, schedule }) => (
+const AgendaCard = ({
+  image,
+  schedule,
+  title,
+  description,
+  slides,
+  video,
+  repository
+}) => (
   <div className="card">
     <div className="card-wrapper">
       <img className="card-image" src={image} alt="avatar" />
       <div className="card-information">
         <h2 className="schedule">{schedule}</h2>
         <p className="card-title">
-          <i>Arquitectura de Apps escalables en Angular</i>
+          <i>{title}</i>
         </p>
-        <p className="card-description">
-          Aprenderemos como aplicar los patrones de diseño con los bloques de
-          construcción de Angular para proyectos pensados en tener mas de 100
-          componentes.
-        </p>
-        <a href="#">Slides</a>
-        <a href="#">Video</a>
+        <p className="card-description">{description}</p>
+        {slides && <a href={slides}>Slides</a>}
+        {video && <a href={video}>Video</a>}
+        {repository && <a href={repository}>Repo</a>}
       </div>
     </div>
   </div>

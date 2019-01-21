@@ -10,6 +10,17 @@ a {
   box-shadow: 0px 0px 18px 0px rgba(130, 130, 130, 0.65);
 }
 
+.card:after {
+  content: ' ';
+  padding: 1%;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 1%;
+  transform: translate(-100%, -50%) rotate(45deg);
+  z-index: 1000;
+}
+
 .card-wrapper {
   display: flex;
   flex-direction: row;
@@ -55,7 +66,7 @@ a {
 }
 
 .agenda-grid:before {
-  content: "";
+  content: '';
   position: absolute;
   left: 40px;
   height: 100%;
@@ -76,7 +87,7 @@ a {
 }
 
 .agenda-container:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 20px;
   height: 20px;
