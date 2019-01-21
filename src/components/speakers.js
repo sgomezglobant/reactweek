@@ -1,7 +1,9 @@
 import React from "react";
 import resources from "./../data/resources";
 import SpeakerItem from './speakerItem'
-import "./speakers.css";
+import "./../styles/speakers.css";
+
+// Speakers component
 
 const Speakers = () => (
   <section className="speakers">
@@ -9,7 +11,7 @@ const Speakers = () => (
       <h2 className="speakers-details__title">Speakers</h2>
     </header>
     <main className="speakers-grid">
-      {resources.speakers.map(speaker => <SpeakerItem {...speaker} />)}
+      {resources.speakers.map(({id, ...speaker}) => <SpeakerItem key={id} {...speaker} />)}
     </main>
   </section>
 );

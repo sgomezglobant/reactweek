@@ -1,7 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types"
-import "./speakerItem.css";
+import "./../styles/speakerItem.css";
 
+
+// Speakears item component
 
 const SpeakerItem = ({pic, name, description, github, facebook, twitter}) => (
   <article className="speakers-grid__item">
@@ -12,9 +14,9 @@ const SpeakerItem = ({pic, name, description, github, facebook, twitter}) => (
     <div className="speakers-grid__description">
       <p className="speakers-grid__text">{description}</p>
       <div className="speakers-grid__social">
-        <a href={github} className="speakers-grid__link" />
-        <a href={facebook} className="speakers-grid__link" />
-        <a href={twitter} className="speakers-grid__link" />
+        <a href={github} className="speakers-grid__link speakers-grid__link--github" >Github</a>
+        <a href={facebook} className="speakers-grid__link speakers-grid__link--facebook" >Facebook</a>
+        <a href={twitter} className="speakers-grid__link speakers-grid__link--twitter" >Twitter</a>
       </div>
     </div>
   </article>
@@ -24,9 +26,9 @@ SpeakerItem.propTypes = {
   pic: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  github: PropTypes.string.isRequired,
-  facebook: PropTypes.string.isRequired,
-  twitter: PropTypes.string.isRequired
+  github: PropTypes.string,
+  facebook: PropTypes.string,
+  twitter: PropTypes.string
 }
 
 export default SpeakerItem;
