@@ -14,13 +14,12 @@ a {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 15px 15px;
+  padding: 15px;
 }
 
 .card-image {
   border-radius: 50%;
   max-width: 70px;
-  z-index: 5;
 }
 
 .card-information {
@@ -33,6 +32,7 @@ a {
   margin-bottom: 0;
   font-weight: 500;
 }
+
 .card-title {
   box-sizing: border-box;
   margin-bottom: 0px;
@@ -44,4 +44,45 @@ a {
   box-sizing: border-box;
   line-height: 22px;
   margin-bottom: 0;
+}
+
+.agenda-grid {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  position: relative;
+  padding: 25px 25px 25px 40px;
+}
+
+.agenda-grid:before {
+  content: "";
+  position: absolute;
+  left: 40px;
+  height: 100%;
+  width: 2px;
+  background: #cecece;
+  top: 0px;
+}
+
+.agenda-container {
+  margin-left: 55px;
+  padding: 0;
+  position: relative;
+  margin-top: 25px;
+}
+
+.agenda-container:first-child {
+  margin-top: 0;
+}
+
+.agenda-container:before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #c5c5c5;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  left: -64px;
 }

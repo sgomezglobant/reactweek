@@ -1273,6 +1273,63 @@
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
+    },
+    "300b5f64-f9ff-53dd-b848-b7e4c6175824": {
+      "id": "300b5f64-f9ff-53dd-b848-b7e4c6175824",
+      "children": [
+        "af5bb6eb-9492-58ef-a7e2-83958fb95dab"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b6c0f969d1a9f70078df36c1ae136a00",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/globant-medellin.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/angelita/code/REACT/React week website/reactweek/src/images/globant-medellin.jpg",
+      "relativePath": "globant-medellin.jpg",
+      "extension": "jpg",
+      "size": 258478,
+      "prettySize": "258 kB",
+      "modifiedTime": "2019-01-21T14:16:51.473Z",
+      "accessTime": "2019-01-21T14:16:51.470Z",
+      "changeTime": "2019-01-21T14:16:51.473Z",
+      "birthTime": "2019-01-21T14:16:51.470Z",
+      "root": "/",
+      "dir": "/Users/angelita/code/REACT/React week website/reactweek/src/images",
+      "base": "globant-medellin.jpg",
+      "ext": ".jpg",
+      "name": "globant-medellin",
+      "relativeDirectory": "",
+      "dev": 16777222,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8602359085,
+      "blocks": 512,
+      "atimeMs": 1548080211470.4006,
+      "mtimeMs": 1548080211473.0996,
+      "ctimeMs": 1548080211473.0996,
+      "birthtimeMs": 1548080211470.4006,
+      "atime": "2019-01-21T14:16:51.470Z",
+      "mtime": "2019-01-21T14:16:51.473Z",
+      "ctime": "2019-01-21T14:16:51.473Z",
+      "birthtime": "2019-01-21T14:16:51.470Z"
+    },
+    "af5bb6eb-9492-58ef-a7e2-83958fb95dab": {
+      "id": "af5bb6eb-9492-58ef-a7e2-83958fb95dab",
+      "children": [],
+      "parent": "300b5f64-f9ff-53dd-b848-b7e4c6175824",
+      "internal": {
+        "contentDigest": "b6c0f969d1a9f70078df36c1ae136a00",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     }
   },
   "status": {
