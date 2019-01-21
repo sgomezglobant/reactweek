@@ -1,10 +1,11 @@
 import React from 'react';
+import AgendaCard from './agendaCard';
 
 const Schedule = () => (
-  <footer>
+  <section>
     <h3>Agenda</h3>
-    <p>Seccion Agenda</p>
-  </footer>
+    <AgendaCard></AgendaCard>
+  </section>
 );
 
 export default Schedule;

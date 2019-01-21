@@ -231,6 +231,85 @@
         "owner": "internal-data-bridge"
       }
     },
+    "d8f4bf2b-73c7-5c69-93d1-79ac2ac7c2e8": {
+      "resolve": "/Users/angelita/code/REACT/React week website/reactweek/node_modules/gatsby-plugin-sass",
+      "id": "d8f4bf2b-73c7-5c69-93d1-79ac2ac7c2e8",
+      "name": "gatsby-plugin-sass",
+      "version": "2.0.7",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/angelita/code/REACT/React week website/reactweek/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "2.0.7",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "sass",
+          "scss"
+        ],
+        "author": {
+          "name": "Daniel Farrell",
+          "email": "daniel@mobelux.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^7.0.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.9.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "df3e4c687c0636ea5c32ef6e86c79c24",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
       "resolve": "/Users/angelita/code/REACT/React week website/reactweek/node_modules/gatsby-plugin-react-helmet",
       "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
@@ -761,7 +840,7 @@
       "resolve": "/Users/angelita/code/REACT/React week website/reactweek",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "31ae5a1aa74a18447b898765f8269e8d",
+      "version": "be381d797219905909c04a458953b7a2",
       "pluginOptions": {
         "plugins": []
       },
@@ -800,6 +879,10 @@
             "version": "^3.0.2"
           },
           {
+            "name": "gatsby-plugin-sass",
+            "version": "^2.0.7"
+          },
+          {
             "name": "gatsby-plugin-sharp",
             "version": "^2.0.14"
           },
@@ -810,6 +893,10 @@
           {
             "name": "gatsby-transformer-sharp",
             "version": "^2.1.8"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.11.0"
           },
           {
             "name": "prop-types",
@@ -841,7 +928,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e54715d32a0ae67e4563c2bff43bd09a",
+        "contentDigest": "44871ec3068efb4c1a125860643abd0f",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -959,12 +1046,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-01-18T21:22:01.992Z",
+      "buildTime": "2019-01-21T14:14:02.719Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0da4ea6848c5070ccc33d2251518365d",
+        "contentDigest": "4ec9619e9ec2cadd9b0a440d5fe6d42d",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -974,7 +1061,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "920e0298bcf79d8faabef2262c274780",
+        "contentDigest": "169a0c1a67d2ceb524d53b1af494e7fb",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -986,7 +1073,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2019-01-18T21:16:56.217Z",
-      "accessTime": "2019-01-18T21:22:21.985Z",
+      "accessTime": "2019-01-21T14:14:24.630Z",
       "changeTime": "2019-01-18T21:16:56.217Z",
       "birthTime": "2019-01-18T21:16:56.215Z",
       "root": "/",
@@ -1004,11 +1091,11 @@
       "blksize": 4096,
       "ino": 8602310955,
       "blocks": 0,
-      "atimeMs": 1547846541984.6436,
+      "atimeMs": 1548080064630.433,
       "mtimeMs": 1547846216216.7766,
       "ctimeMs": 1547846216216.7766,
       "birthtimeMs": 1547846216214.5664,
-      "atime": "2019-01-18T21:22:21.985Z",
+      "atime": "2019-01-21T14:14:24.630Z",
       "mtime": "2019-01-18T21:16:56.217Z",
       "ctime": "2019-01-18T21:16:56.217Z",
       "birthtime": "2019-01-18T21:16:56.215Z"
@@ -1033,7 +1120,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2019-01-18T21:16:56.217Z",
-      "accessTime": "2019-01-18T21:20:09.927Z",
+      "accessTime": "2019-01-18T21:22:26.829Z",
       "changeTime": "2019-01-18T21:16:56.217Z",
       "birthTime": "2019-01-18T21:16:56.217Z",
       "root": "/",
@@ -1051,11 +1138,11 @@
       "blksize": 4096,
       "ino": 8602310957,
       "blocks": 48,
-      "atimeMs": 1547846409927.1304,
+      "atimeMs": 1547846546829.124,
       "mtimeMs": 1547846216217.1147,
       "ctimeMs": 1547846216217.1147,
       "birthtimeMs": 1547846216216.763,
-      "atime": "2019-01-18T21:20:09.927Z",
+      "atime": "2019-01-18T21:22:26.829Z",
       "mtime": "2019-01-18T21:16:56.217Z",
       "ctime": "2019-01-18T21:16:56.217Z",
       "birthtime": "2019-01-18T21:16:56.217Z"
@@ -1090,7 +1177,7 @@
       "size": 167273,
       "prettySize": "167 kB",
       "modifiedTime": "2019-01-18T21:16:56.216Z",
-      "accessTime": "2019-01-18T21:18:37.546Z",
+      "accessTime": "2019-01-18T21:37:50.493Z",
       "changeTime": "2019-01-18T21:16:56.216Z",
       "birthTime": "2019-01-18T21:16:56.215Z",
       "root": "/",
@@ -1108,11 +1195,11 @@
       "blksize": 4096,
       "ino": 8602310956,
       "blocks": 328,
-      "atimeMs": 1547846317545.8643,
+      "atimeMs": 1547847470492.506,
       "mtimeMs": 1547846216216.498,
       "ctimeMs": 1547846216216.498,
       "birthtimeMs": 1547846216214.7415,
-      "atime": "2019-01-18T21:18:37.546Z",
+      "atime": "2019-01-18T21:37:50.493Z",
       "mtime": "2019-01-18T21:16:56.216Z",
       "ctime": "2019-01-18T21:16:56.216Z",
       "birthtime": "2019-01-18T21:16:56.215Z"
@@ -1190,7 +1277,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "9b5f657f65fa29948c93c7534d2a5496"
+    "PLUGINS_HASH": "012a9163cfd113606499a329926813d5"
   },
   "componentDataDependencies": {
     "nodes": {
