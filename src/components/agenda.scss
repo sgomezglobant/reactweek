@@ -1,0 +1,88 @@
+a {
+  font-size: 15px;
+  text-decoration: none;
+  margin-right: 10px;
+  color: #039be5;
+}
+
+.card {
+  width: 100%;
+  box-shadow: 0px 0px 18px 0px rgba(130, 130, 130, 0.65);
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px;
+}
+
+.card-image {
+  border-radius: 50%;
+  max-width: 70px;
+}
+
+.card-information {
+  padding-left: 1em;
+}
+
+.schedule {
+  color: #73b518;
+  font-size: 1em;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+.card-title {
+  box-sizing: border-box;
+  margin-bottom: 0px;
+  font-size: 15px;
+}
+
+.card-description {
+  font-size: 15px;
+  box-sizing: border-box;
+  line-height: 22px;
+  margin-bottom: 0;
+}
+
+.agenda-grid {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  position: relative;
+  padding: 25px 25px 25px 40px;
+}
+
+.agenda-grid:before {
+  content: "";
+  position: absolute;
+  left: 40px;
+  height: 100%;
+  width: 2px;
+  background: #cecece;
+  top: 0px;
+}
+
+.agenda-container {
+  margin-left: 55px;
+  padding: 0;
+  position: relative;
+  margin-top: 25px;
+}
+
+.agenda-container:first-child {
+  margin-top: 0;
+}
+
+.agenda-container:before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #c5c5c5;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  left: -64px;
+}
