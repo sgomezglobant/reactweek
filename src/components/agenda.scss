@@ -1,15 +1,7 @@
-p {
-  font-size: 15px;
-  font-family: Raleway, sans-serif;
-  box-sizing: border-box;
-  margin-bottom: 0;
-}
-
 a {
   font-size: 15px;
-  font-family: Raleway, sans-serif;
   text-decoration: none;
-  margin-right: 5px;
+  margin-right: 10px;
   color: #039be5;
 }
 
@@ -37,10 +29,19 @@ a {
 
 .schedule {
   color: #73b518;
-  font-size: 1.1em;
+  font-size: 1em;
   margin-bottom: 0;
+  font-weight: 500;
 }
 .card-title {
-  font-family: Raleway, sans-serif;
   box-sizing: border-box;
+  margin-bottom: 0px;
+  font-size: 15px;
+}
+
+.card-description {
+  font-size: 15px;
+  box-sizing: border-box;
+  line-height: 22px;
+  margin-bottom: 0;
 }
