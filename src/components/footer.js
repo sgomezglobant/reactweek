@@ -1,9 +1,11 @@
 import React from 'react';
 
+import '../styles/footer.css';
+
 const Footer = () => (
-  <footer>
+  <footer className="rw-footer">
     <h3>¡No te lo pierdas!</h3>
-    <p>Registrate aquí</p>
+    <a href="#">Registrate Aquí</a>
   </footer>
 );
 
