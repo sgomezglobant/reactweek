@@ -1,0 +1,30 @@
+.rw-footer {
+  background: linear-gradient(to right, rgba(54, 152, 197, 0.8) , rgba(99, 189, 65, 0.7)), url('../images/globant-medellin.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rw-footer h3 {
+  color: #fff;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.9em;
+  margin-bottom: 1em;
+}
+
+.rw-footer a {
+  color: #039be5;
+  display: block;
+  width: 750px;
+  max-width: 90%;
+  text-align: center;
+  text-decoration: none;
+  background: rgba(22, 21, 21, 0.7);
+  padding: .4em;
+  font-size: .9em;
+}

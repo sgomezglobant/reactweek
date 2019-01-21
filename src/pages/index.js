@@ -12,6 +12,8 @@ import Organization from '../components/organization';
 import Communities from '../components/communities';
 import Volunteers from '../components/volunteers';
 
+import '../styles/page.css';
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
