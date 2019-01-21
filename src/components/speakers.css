@@ -1,0 +1,34 @@
+.speakers {
+  margin: 4rem 0 0;
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.speakers-details__title {
+  position: relative;
+}
+
+.speakers-details__title::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  background-image: url("./../images/mic.svg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  transform: translate(-50%, -105%);
+}
+
+@media (min-width: 768px) {
+  .speakers-grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
