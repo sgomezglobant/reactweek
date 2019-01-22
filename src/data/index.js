@@ -66,11 +66,6 @@ export default {
         name: 'PionerasDev',
         url: 'http://pionerasdev.co/'
       },
-      {
-        image: 'pioneras-logo.png',
-        name: 'PionerasDev',
-        url: 'http://pionerasdev.co/'
-      },
     ]
   }
 };
