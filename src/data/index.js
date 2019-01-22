@@ -39,5 +39,8 @@ export default {
       repository: 'https://github.com/CarlosAngulo/AnimationBuilder-basics',
       video: 'https://youtu.be/mPMIFaVHLlY?t=1h16m23s'
     }
-  ]
+  ],
+  organization: {
+    title: 'Patrocina y Organiza'
+  }
 };

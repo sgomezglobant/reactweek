@@ -1,10 +1,14 @@
-import React from 'react';
+import React from 'react'
+import data from '../data'
+import '../styles/organization.scss'
 
-const Organization = () => (
-  <footer>
-    <h3>Patrocina y Organiza</h3>
-    <p>Seccion Voluntarios</p>
-  </footer>
+const organization = () => (
+  <section>
+    <div className="title-container">
+      <i className="icon ion-ios-star-outline"></i>
+      <h3>{data.organization.title}</h3>
+    </div>
+  </section>
 );
 
-export default Organization;
+export default organization;
