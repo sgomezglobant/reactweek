@@ -1,0 +1,23 @@
+{
+  "projectName": "reactweek",
+  "projectOwner": "sgomezglobant",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "contributors": [
+    {
+      "login": "angelitaooo",
+      "name": "Angela Ordoñez",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/18565471?v=4",
+      "profile": "http://angelitaooo.github.io",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
