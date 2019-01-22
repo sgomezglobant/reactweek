@@ -41,6 +41,36 @@ export default {
     }
   ],
   organization: {
-    title: 'Patrocina y Organiza'
+    sponsorsTitle: 'Patrocina y Organiza',
+    communitiesTitle: 'Comunidades Participantes',
+    sponsors: [
+      {
+        image: 'globant-logo.png',
+        name: 'Globant',
+        url: 'https://www.globant.com/'
+      }
+    ],
+    communities: [
+      {
+        image: 'angular_medellin.png',
+        name: 'Angular Medellin',
+        url: 'https://github.com/angular-medellin/ngcolombia-2017'
+      },
+      {
+        image: 'gdg-logo2.png',
+        name: 'Google Developers Group Medellin',
+        url: 'https://www.meetup.com/es-ES/GDG-Medellin/'
+      },
+      {
+        image: 'pioneras-logo.png',
+        name: 'PionerasDev',
+        url: 'http://pionerasdev.co/'
+      },
+      {
+        image: 'pioneras-logo.png',
+        name: 'PionerasDev',
+        url: 'http://pionerasdev.co/'
+      },
+    ]
   }
 };
