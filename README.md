@@ -11,6 +11,9 @@
 
 Bienvenido al repositorio oficial de React Week.
 
+Este sitio web utiliza Gatsby, es un proyecto open source en el cual todos pueden participar y donde podras encontrar toda la información de este gran evento.
+
+5 de Marzo - 9 de Marzo, Globant Medellin - Colombia
 
 ## 🚀 Código de conducta
 
