@@ -4,3 +4,5 @@ node_modules
 # build output
 .next
 .cache
+public/
+.idea/
