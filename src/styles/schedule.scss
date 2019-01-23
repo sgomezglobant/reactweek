@@ -1,99 +1,115 @@
-a {
-  font-size: 15px;
-  text-decoration: none;
-  margin-right: 10px;
-  color: #039be5;
-}
+@import 'variables.scss';
 
-.card {
-  width: 100%;
-  box-shadow: 0px 0px 18px 0px rgba(130, 130, 130, 0.65);
-}
+.agenda {
+  a {
+    font-size: 15px;
+    text-decoration: none;
+    margin-right: 10px;
+    color: #039be5;
+  }
 
-.card:after {
-  content: ' ';
-  padding: 1%;
-  background-color: white;
-  position: absolute;
-  top: 50%;
-  left: 1%;
-  transform: translate(-100%, -50%) rotate(45deg);
-  z-index: 1000;
-}
+  .header {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 
-.card-wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 15px;
-}
+    i.icon {
+      font-size: 4em;
+      color: $react-brand-blue;
+    }
+  }
 
-.card-image {
-  border-radius: 50%;
-  max-width: 70px;
-}
+  .card {
+    width: 100%;
+    box-shadow: -4px 0px 18px 0px rgba(130, 130, 130, 0.65);
+  }
 
-.card-information {
-  padding-left: 1em;
-}
+  .card:after {
+    content: ' ';
+    padding: 1%;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    transform: translate(-100%, -50%) rotate(45deg);
+    z-index: 1000;
+  }
 
-.schedule {
-  color: #73b518;
-  font-size: 1em;
-  margin-bottom: 0;
-  font-weight: 500;
-}
+  .card-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+  }
 
-.card-title {
-  box-sizing: border-box;
-  margin-bottom: 0px;
-  font-size: 15px;
-}
+  .card-image {
+    border-radius: 50%;
+    max-width: 70px;
+  }
 
-.card-description {
-  font-size: 15px;
-  box-sizing: border-box;
-  line-height: 22px;
-  margin-bottom: 0;
-}
+  .card-information {
+    padding-left: 1em;
+  }
 
-.agenda-grid {
-  display: flex;
-  align-content: center;
-  flex-direction: column;
-  position: relative;
-  padding: 25px 25px 25px 40px;
-}
+  .schedule {
+    color: #73b518;
+    font-size: 1em;
+    margin-bottom: 0;
+    font-weight: 500;
+  }
 
-.agenda-grid:before {
-  content: '';
-  position: absolute;
-  left: 40px;
-  height: 100%;
-  width: 2px;
-  background: #cecece;
-  top: 0px;
-}
+  .card-title {
+    box-sizing: border-box;
+    margin-bottom: 0px;
+    font-size: 15px;
+  }
 
-.agenda-container {
-  margin-left: 55px;
-  padding: 0;
-  position: relative;
-  margin-top: 25px;
-}
+  .card-description {
+    font-size: 15px;
+    box-sizing: border-box;
+    line-height: 22px;
+    margin-bottom: 0;
+    color: gray;
+  }
 
-.agenda-container:first-child {
-  margin-top: 0;
-}
+  .agenda-grid {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    position: relative;
+    padding: 25px 25px 25px 40px;
+  }
 
-.agenda-container:before {
-  content: '';
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  background: #c5c5c5;
-  top: 50%;
-  transform: translateY(-50%);
-  border-radius: 50%;
-  left: -64px;
+  .agenda-grid:before {
+    content: '';
+    position: absolute;
+    left: 40px;
+    height: 100%;
+    width: 2px;
+    background: #cecece;
+    top: 0px;
+  }
+
+  .agenda-container {
+    margin-left: 55px;
+    padding: 0;
+    position: relative;
+    margin-top: 25px;
+  }
+
+  .agenda-container:first-child {
+    margin-top: 0;
+  }
+
+  .agenda-container:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #c5c5c5;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    left: -64px;
+  }
 }

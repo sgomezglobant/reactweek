@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AgendaCard = ({
+const ScheduledEvent = ({
   image,
   schedule,
   title,
@@ -14,9 +14,7 @@ const AgendaCard = ({
       <img className="card-image" src={image} alt="avatar" />
       <div className="card-information">
         <h2 className="schedule">{schedule}</h2>
-        <p className="card-title">
-          <i>{title}</i>
-        </p>
+        <i className="card-title">{title}</i>
         <p className="card-description">{description}</p>
         {slides && <a href={slides}>Slides</a>}
         {video && <a href={video}>Video</a>}
@@ -26,4 +24,4 @@ const AgendaCard = ({
   </div>
 );
 
-export default AgendaCard;
+export default ScheduledEvent;
