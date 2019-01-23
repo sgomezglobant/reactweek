@@ -12,18 +12,32 @@
     margin-bottom: 1em;
   }
 }
-.volunteers-list{
+.volunteers-list {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 
-    .volunteers-item{
+    .volunteers-item {
         margin: 0 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
         img{
             border-radius: 50%;
             max-height: 150px;
+            margin-bottom: 0;
+        }
+
+        sub{
+            width: 100%;
+
+            b{
+
+                text-align: center;
+            }
         }
     }
 }
