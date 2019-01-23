@@ -76,7 +76,7 @@ export default {
             target: '_self'
         },
         {
-            name: 'codigo de conducta',
+            name: 'código de conducta',
             url: 'https://www.google.com.co',
             image: null,
             target: '_blank'

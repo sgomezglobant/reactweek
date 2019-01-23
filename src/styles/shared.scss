@@ -1,78 +1,36 @@
 @import 'variables.scss';
 
-.rw-shared-fixed{
+.main-menu{
     position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 9999;
     width: 100%;
-    height: 40px;
+    height: 45px;
     background-color: $react-brand-blue;
-    ul{
-        list-style: none;
-        margin: 0;
-        position: absolute;
-        right: 0;
-        top: -1px;
-        padding: 18px;
-        height: 52px;
-        li{
-            float: left;
-            margin: 0 6px;
-            a{
-                display: block;
-                color: $default-text-link;
-                font-size: 15px;
-                font-weight: 400;
-                margin: 0 6px;
-                text-transform: capitalize;
-                img{
-                    width: 34px;
-                    height: 14px;
-                }
-            }
+    z-index: 9;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12), 0 3px 1px -2px rgba(0,0,0,.2);
+    &__item{
+        color: $default-text-link;
+        font-size: 0.8rem;
+        font-weight: 400;
+        text-transform: capitalize;
+        &--border{
+            border-right: 1px solid $default-text-link;
+            padding-right: 10px;
+            color: $default-text-link;
+            font-size: 0.8rem;
+            font-weight: 400;
+            text-transform: capitalize;
         }
-        li:nth-child(1)::after{
-            content: '|';
-            color: #fff;
-            margin: 0 6px;
-            position: relative;
-            top: -27px;
-            left: 48px;
+        &--image{
+            width: 36px;
+            height: 14px;
+            margin: 0;
         }
-        li:nth-child(2)::after{
-            content: '|';
-            color: #fff;
-            margin: 0 6px;
-            position: relative;
-            top: -27px;
-            left: 155px;
-        }
-    }
-}
-
-@media (min-width: 0) and (max-width: 768px){
-    .rw-shared-fixed{
-        ul{
-            padding: 18px 0px;
-            li{
-                a{
-                    font-size: 12px;
-
-                }
-            }
-            li:nth-child(1)::after{
-                top: -25px;
-                left: 42px;
-            }
-            li:nth-child(2)::after{
-                top: -25px;
-                left: 126px;
-            }
-        }
-    }
-    header{
-        margin-top: 1rem;
     }
 }
