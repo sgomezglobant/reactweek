@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 const organizationItem = props => {
   return (
-    <a className="sponsor-url" href={props.item.url}  target="_blank" name={props.item.name}>
+    <a className="sponsor-url" href={props.item.url} name={props.item.name}>
       <img src={require(`../images/${props.item.image}`)} alt={props.item.name}></img>
     </a>
   )
