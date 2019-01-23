@@ -1,3 +1,5 @@
+@import "./variables.scss";
+
 .speakers-grid__item {
   width: 200px;
   height: 275px;
@@ -66,13 +68,12 @@
 .speakers-grid__text {
   font-size: 0.85rem;
   line-height: 1.15;
-  color: var(--tertiary-color);
+  color: $react-brand-white;
 }
 
 .speakers-grid__social {
   width: 100%;
   max-width: 70%;
-  display: flex;
   display: flex;
   justify-content: space-between;
   align-items: center;
