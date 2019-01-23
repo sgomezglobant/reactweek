@@ -1,0 +1,52 @@
+@import "./variables.scss";
+
+.register {
+  margin: 1rem 0;
+
+  @media (min-width: 768px) {
+    margin: 4rem 0;
+  }
+
+  &-widget {
+    width: 100%;
+    min-height: 20rem;
+
+    @media (min-width: 768px) {
+      min-height: 16rem;
+      margin-bottom: 1rem;
+    }
+
+    & > iframe {
+      min-height: 22rem;
+
+      @media (min-width: 768px) {
+        min-height: 16rem;
+        margin: 0 auto;
+      }
+    }
+
+    &__cta {
+      width: 100%;
+      max-width: 80%;
+      background-color: $react-brand-blue;
+      border: 0;
+      outline: none;
+      padding: 10px;
+      display: block;
+      margin: 0 auto;
+      border-radius: 4px;
+      font-weight: bold;
+      color: white;
+      font-size: 0.935rem;
+
+      @media (min-width: 768px) {
+        max-width: 45%;
+        padding: 15px;
+      }
+
+      @media (min-width: 768px) {
+        max-width: 35%;
+      }
+    }
+  }
+}
