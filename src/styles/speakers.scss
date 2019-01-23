@@ -7,26 +7,26 @@
   text-align: center;
   justify-content: center;
 
-  &-details {
+  &__details {
     margin-bottom: 0.75rem;
+  }
 
-    &__title {
-      position: relative;
-      color: $react-brand-black;
+  &__title {
+    position: relative;
+    color: $react-brand-black;
 
-      &::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 50%;
-        background-image: url("./../images/mic.svg");
-        background-size: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        width: 40px;
-        height: 40px;
-        transform: translate(-50%, -110%);
-      }
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 50%;
+      background-image: url("./../images/mic.svg");
+      background-size: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 40px;
+      height: 40px;
+      transform: translate(-50%, -110%);
     }
   }
 
