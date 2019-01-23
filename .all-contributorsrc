@@ -1,0 +1,68 @@
+{
+  "projectName": "reactweek",
+  "projectOwner": "sgomezglobant",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "contributors": [
+    {
+      "login": "angelitaooo",
+      "name": "Angela Ordoñez",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/18565471?v=4",
+      "profile": "http://angelitaooo.github.io",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "sgomezglobant",
+      "name": "Sebastian Gomez",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/20705054?v=4",
+      "profile": "https://github.com/sgomezglobant",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "jotauribe",
+      "name": "Jhonatan Uribe",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/11787339?v=4",
+      "profile": "https://github.com/jotauribe",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "xkill-9",
+      "name": "Jorge Ivan Morales",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1750884?v=4",
+      "profile": "https://github.com/xkill-9",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "onalv",
+      "name": "Omar",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/8124929?v=4",
+      "profile": "https://github.com/onalv",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Angelfire",
+      "name": "Andres",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/315504?v=4",
+      "profile": "https://gecken.co/",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
