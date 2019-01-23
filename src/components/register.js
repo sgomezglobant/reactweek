@@ -33,7 +33,7 @@ class Register extends Component {
         <footer>
           <button
           className="register-widget__cta"
-          id="eventbrite-widget-modal-trigger-55239292210" type="button">Buy Tickets</button>
+          id="eventbrite-widget-modal-trigger-55239292210" type="button">Registarse</button>
           </footer>
       </section>
     )
