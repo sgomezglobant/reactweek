@@ -1,41 +1,23 @@
-import { Link } from 'gatsby';
-import PropTypes from 'prop-types';
+import '../styles/header.css';
+
 import React from 'react';
 
-const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      background: `rebeccapurple`
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
+const Header = () => (
+  <header className="rw-header">
+    <span className="rw-header__subtitle">
+      5 de Marzo - 9 de Marzo, Globant Medellin - Colombia
+    </span>
+    <h1 className="rw-header__title">
+      Developer Week:<i className="rw-header__react-icon" /> React
+    </h1>
+    <a
+      className="rw-header__link"
+      href="https://www.youtube.com/"
+      target="_blank"
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </div>
+      Livestream
+    </a>
+  </header>
 );
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header;
