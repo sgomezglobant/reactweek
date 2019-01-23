@@ -1,7 +1,7 @@
 import React from "react";
 import resources from "./../data/resources";
 import SpeakerItem from './speakerItem'
-import "./../styles/speakers.css";
+import "./../styles/speakers.scss";
 
 // Speakers component
 
