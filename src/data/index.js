@@ -72,13 +72,13 @@ export default {
         {
             name: 'Fotos',
             url: 'https://www.google.com.co',
-            image: null,
+            image: 'null',
             target: '_self'
         },
         {
             name: 'código de conducta',
             url: 'https://www.google.com.co',
-            image: null,
+            image: 'null',
             target: '_blank'
         },
         {
