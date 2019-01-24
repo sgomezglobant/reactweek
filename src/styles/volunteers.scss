@@ -1,17 +1,21 @@
 @import 'variables.scss';
 
-.title-container {
-  text-align: center;
+.volunteers-container {
+    margin: 2em 0;
+}
+.volunteers-title {
+    text-align: center;
 
-  i {
+    i {
     font-size: 4em;
     color: $react-brand-blue; 
-  }
+    }
 
-  h3 {
+    h3 {
     margin-bottom: 1em;
-  }
+    }
 }
+
 .volunteers-list {
     display: flex;
     align-items: center;
@@ -25,19 +29,16 @@
         justify-content: center;
         align-items: center;
 
-        img{
+        img {
             border-radius: 50%;
             max-height: 150px;
             margin-bottom: 0;
         }
 
-        sub{
+        b { 
+            text-align: center;
             width: 100%;
-
-            b{
-
-                text-align: center;
-            }
+            font-size: 0.8em;
         }
     }
 }
