@@ -40,6 +40,89 @@ export default {
       video: 'https://youtu.be/mPMIFaVHLlY?t=1h16m23s'
     }
   ],
+  speakers : [
+    {
+      id: 1,
+      pic: "https://dummyimage.com/256x256/000/fff",
+      name: "Juan Vasquez",
+      description: "Soy Juanfe Vásquez, padre de familia (1 hijo y 4 perros) y fanático de libros de ciencia ficción. En mi carrera profesional me he desempeñado como UX Designer, Profesor, Líder de Área y Front-End Developer.",
+      github: "https://github.com/sgomezglobant/reactweek",
+      facebook: "https://github.com/sgomezglobant/reactweek",
+      twitter: "https://github.com/sgomezglobant/reactweek"
+    },
+    {
+      id: 2,
+      pic: "https://dummyimage.com/256x256/000/fff",
+      name: "Juan Vasquez",
+      description: "Soy Juanfe Vásquez, padre de familia (1 hijo y 4 perros) y fanático de libros de ciencia ficción. En mi carrera profesional me he desempeñado como UX Designer, Profesor, Líder de Área y Front-End Developer.",
+      github: "https://github.com/sgomezglobant/reactweek",
+      facebook: "https://github.com/sgomezglobant/reactweek",
+      twitter: "https://github.com/sgomezglobant/reactweek"
+    },
+    {
+      id: 3,
+      pic: "https://dummyimage.com/256x256/000/fff",
+      name: "Juan Vasquez",
+      description: "Soy Juanfe Vásquez, padre de familia (1 hijo y 4 perros) y fanático de libros de ciencia ficción. En mi carrera profesional me he desempeñado como UX Designer, Profesor, Líder de Área y Front-End Developer.",
+      github: "https://github.com/sgomezglobant/reactweek",
+      facebook: "https://github.com/sgomezglobant/reactweek",
+      twitter: "https://github.com/sgomezglobant/reactweek"
+    },
+    {
+      id: 4,
+      pic: "https://dummyimage.com/256x256/000/fff",
+      name: "Juan Vasquez",
+      description: "Soy Juanfe Vásquez, padre de familia (1 hijo y 4 perros) y fanático de libros de ciencia ficción. En mi carrera profesional me he desempeñado como UX Designer, Profesor, Líder de Área y Front-End Developer.",
+      github: "https://github.com/sgomezglobant/reactweek",
+      facebook: "https://github.com/sgomezglobant/reactweek",
+      twitter: "https://github.com/sgomezglobant/reactweek"
+    },
+    {
+      id: 5,
+      pic: "https://dummyimage.com/256x256/000/fff",
+      name: "Juan Vasquez",
+      description: "Soy Juanfe Vásquez, padre de familia (1 hijo y 4 perros) y fanático de libros de ciencia ficción. En mi carrera profesional me he desempeñado como UX Designer, Profesor, Líder de Área y Front-End Developer.",
+      github: "https://github.com/sgomezglobant/reactweek",
+      facebook: "https://github.com/sgomezglobant/reactweek",
+      twitter: "https://github.com/sgomezglobant/reactweek"
+    },
+    {
+      id: 6,
+      pic: "https://dummyimage.com/256x256/000/fff",
+      name: "Juan Vasquez",
+      description: "Soy Juanfe Vásquez, padre de familia (1 hijo y 4 perros) y fanático de libros de ciencia ficción. En mi carrera profesional me he desempeñado como UX Designer, Profesor, Líder de Área y Front-End Developer.",
+      github: "https://github.com/sgomezglobant/reactweek",
+      facebook: "https://github.com/sgomezglobant/reactweek",
+      twitter: "https://github.com/sgomezglobant/reactweek"
+    },
+    {
+      id: 7,
+      pic: "https://dummyimage.com/256x256/000/fff",
+      name: "Juan Vasquez",
+      description: "Soy Juanfe Vásquez, padre de familia (1 hijo y 4 perros) y fanático de libros de ciencia ficción. En mi carrera profesional me he desempeñado como UX Designer, Profesor, Líder de Área y Front-End Developer.",
+      github: "https://github.com/sgomezglobant/reactweek",
+      facebook: "https://github.com/sgomezglobant/reactweek",
+      twitter: "https://github.com/sgomezglobant/reactweek"
+    },
+    {
+      id: 8,
+      pic: "https://dummyimage.com/256x256/000/fff",
+      name: "Juan Vasquez",
+      description: "Soy Juanfe Vásquez, padre de familia (1 hijo y 4 perros) y fanático de libros de ciencia ficción. En mi carrera profesional me he desempeñado como UX Designer, Profesor, Líder de Área y Front-End Developer.",
+      github: "https://github.com/sgomezglobant/reactweek",
+      facebook: "https://github.com/sgomezglobant/reactweek",
+      twitter: "https://github.com/sgomezglobant/reactweek"
+    },
+    {
+      id: 9,
+      pic: "https://dummyimage.com/256x256/000/fff",
+      name: "Juan Vasquez",
+      description: "Soy Juanfe Vásquez, padre de familia (1 hijo y 4 perros) y fanático de libros de ciencia ficción. En mi carrera profesional me he desempeñado como UX Designer, Profesor, Líder de Área y Front-End Developer.",
+      github: "https://github.com/sgomezglobant/reactweek",
+      facebook: "https://github.com/sgomezglobant/reactweek",
+      twitter: "https://github.com/sgomezglobant/reactweek"
+    }
+  ],
   organization: {
     sponsorsTitle: 'Patrocina y Organiza',
     communitiesTitle: 'Comunidades Participantes',
@@ -65,7 +148,49 @@ export default {
         image: 'pioneras-logo.png',
         name: 'PionerasDev',
         url: 'http://pionerasdev.co/'
+      }
+    ]
+  },
+  volunteers: {
+    volunteersTitle: 'Heroes Reactweek',
+    volunteersList: [
+      {
+        altImg: 'Angela Ordoñez',
+        name: 'Angela ordoñez',
+        url: 'https://avatars3.githubusercontent.com/u/18565471?v=4'
+
       },
+      {
+        altImg: 'Sebastian Gomez',
+        name: 'Sebastian Gomez',
+        url: 'https://avatars1.githubusercontent.com/u/20705054?v=4'
+
+      },
+      {
+        altImg: 'Jhonatan Uribe',
+        name: 'Jhonatan Uribe',
+        url: 'https://avatars1.githubusercontent.com/u/11787339?v=4'
+
+      },
+      {
+        altImg: 'Jorge Ivan Morales',
+        name: 'Jorge Ivan Morales',
+        url: 'https://avatars3.githubusercontent.com/u/1750884?v=4'
+
+      },
+      {
+        altImg: 'Omar',
+        name: 'Omar',
+        url: 'https://avatars1.githubusercontent.com/u/8124929?v=4'
+
+      },
+      {
+        image: 'Andres',
+        name: 'Andres',
+        url: 'https://avatars0.githubusercontent.com/u/315504?v=4'
+
+      }
+
     ]
   }
 };
