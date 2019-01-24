@@ -5,7 +5,7 @@ import '../styles/schedule.scss';
 
 const Schedule = () => (
   <section className="agenda">
-    <div className="header">
+    <div className="agenda-header">
       <i className="icon ion-ios-time-outline" />
       <h3>Agenda</h3>
     </div>
