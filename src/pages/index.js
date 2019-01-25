@@ -13,7 +13,7 @@ import Communities from '../components/communities';
 import Volunteers from '../components/volunteers';
 import Register from '../components/register';
 
-import '../styles/page.css';
+import '../styles/page.scss';
 
 const IndexPage = () => (
   <Layout>
