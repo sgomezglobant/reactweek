@@ -1,4 +1,4 @@
-@import 'variables.scss';
+@import './variables.scss';
 
 .main-menu{
     position: fixed;
@@ -19,6 +19,7 @@
         font-size: 0.8rem;
         font-weight: 400;
         text-transform: capitalize;
+        font-family: $page-font;
         &--border{
             border-right: 1px solid $react-brand-white;
             padding-right: 10px;
@@ -26,6 +27,7 @@
             font-size: 0.8rem;
             font-weight: 400;
             text-transform: capitalize;
+            font-family: $page-font;
         }
         &--image{
             width: 36px;
