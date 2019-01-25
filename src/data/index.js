@@ -173,21 +173,51 @@ export default {
 
       },
       {
+        altImg: 'Duvan Gallego',
+        name: 'Duvan Gallego',
+        url: 'https://avatars3.githubusercontent.com/u/4497502?v=4'
+
+      },
+      {
         altImg: 'Jorge Ivan Morales',
         name: 'Jorge Ivan Morales',
         url: 'https://avatars3.githubusercontent.com/u/1750884?v=4'
 
       },
       {
-        altImg: 'Omar',
-        name: 'Omar',
+        altImg: 'Santiago De Los Rios',
+        name: 'Santiago De Los Rios',
+        url: 'https://avatars3.githubusercontent.com/u/6628019?v=4'
+
+      },
+      {
+        altImg: 'Wilfrido Bonett',
+        name: 'Wilfrido Bonett',
+        url: 'https://avatars3.githubusercontent.com/u/8261459?v=4'
+
+      },
+      {
+        altImg: 'Omar Nava',
+        name: 'Omar Nava',
         url: 'https://avatars1.githubusercontent.com/u/8124929?v=4'
 
       },
       {
-        image: 'Andres',
-        name: 'Andres',
-        url: 'https://avatars0.githubusercontent.com/u/315504?v=4'
+        altImg: 'Andres Bedoya',
+        name: 'Andres Bedoya',
+        url: 'https://avatars1.githubusercontent.com/u/315504?v=4'
+
+      },
+      {
+        altImg: 'Juan Mateo Garcia',
+        name: 'Juan Mateo Garcia',
+        url: 'https://avatars1.githubusercontent.com/u/19862755?v=4'
+
+      },
+      {
+        altImg: 'Jose D. Vásquez',
+        name: 'Jose D. Vásquez',
+        url: 'https://avatars0.githubusercontent.com/u/5192582?v=4'
 
       }
 
