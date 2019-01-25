@@ -24,7 +24,7 @@ export default class HTML extends React.Component {
           />
           {this.props.postBodyComponents}
           <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
-          <noscript><a href="https://react-week-medellin.eventbrite.com" rel="noopener noreferrer" target="_blank" />></noscript>
+          <noscript><a href="https://react-week-medellin.eventbrite.com" rel="noopener noreferrer" target="_blank" /></noscript>
         </body>
       </html>
     )
