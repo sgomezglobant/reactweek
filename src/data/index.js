@@ -128,24 +128,24 @@ export default {
         communitiesTitle: 'Comunidades Participantes',
         sponsors: [
             {
-                image: 'globant-logo.png',
+                image: 'https://raw.githubusercontent.com/sgomezglobant/reactweek/gh-pages/static/globant-logo-664ac1efc4660513207a56593b20084f.png',
                 name: 'Globant',
                 url: 'https://www.globant.com/'
             }
         ],
         communities: [
             {
-                image: 'react-medellin.png',
+                image: 'https://raw.githubusercontent.com/sgomezglobant/reactweek/gh-pages/static/react-medellin-2f429a5cf394007082338b739cf29545.png',
                 name: 'React Medellín',
                 url: 'https://www.meetup.com/es-ES/React-Medellin/events/258336352/'
             },
             {
-                image: 'gdg-logo2.png',
+                image: 'https://raw.githubusercontent.com/sgomezglobant/reactweek/gh-pages/static/gdg-logo2-49b3ae14a34113ca9ec3177f92a9499c.png',
                 name: 'Google Developers Group Medellin',
                 url: 'https://www.meetup.com/es-ES/GDG-Medellin/'
             },
             {
-                image: 'pioneras-logo.png',
+                image: 'https://raw.githubusercontent.com/sgomezglobant/reactweek/gh-pages/static/pioneras-logo-2f87aec626434957b49d8cd346e25970.png',
                 name: 'PionerasDev',
                 url: 'http://pionerasdev.co/'
             }
