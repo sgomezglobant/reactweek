@@ -8,18 +8,17 @@ class Register extends Component {
 
   componentDidMount() {
     window.EBWidgets.createWidget({
-      // Required
       widgetType: 'checkout',
       eventId: '55239292210',
       iframeContainerId: 'eventbrite-widget-container-55239292210',
       iframeContainerHeight: 425
   });
-  window.EBWidgets.createWidget({
-    widgetType: 'checkout',
-    eventId: '55239292210',
-    modal: true,
-    modalTriggerElementId: 'eventbrite-widget-modal-trigger-55239292210',
-});
+    window.EBWidgets.createWidget({
+      widgetType: 'checkout',
+      eventId: '55239292210',
+      modal: true,
+      modalTriggerElementId: 'eventbrite-widget-modal-trigger-55239292210',
+  });
   }
 
   render () {
