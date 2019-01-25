@@ -52,7 +52,7 @@
   }
 
   .card-schedule {
-    color: #73b518;
+    color: $event-date-color;
     font-size: 1em;
     margin-bottom: 0;
     font-weight: 500;
@@ -61,7 +61,7 @@
   .card-link {
     text-decoration: none;
     margin-right: 10px;
-    color: #039be5;
+    color: $link-color;
   }
 
   .card-title {
@@ -74,7 +74,7 @@
     box-sizing: border-box;
     line-height: 1.5em;
     margin-bottom: 0;
-    color: gray;
+    color: $secondary-text-color;
   }
 
   @media only screen and (min-width: 601px) {
@@ -88,7 +88,7 @@
       left: 40px;
       height: 100%;
       width: 2px;
-      background: #cecece;
+      background: $agenda-grid-background-color;
       top: 0px;
     }
 
@@ -104,7 +104,7 @@
       position: absolute;
       width: 20px;
       height: 20px;
-      background: #c5c5c5;
+      background: $agenda-grid-background-color;
       top: 50%;
       transform: translateY(-50%);
       border-radius: 50%;
@@ -113,13 +113,12 @@
 
     .card:after {
       content: ' ';
-      padding: 1%;
-      background-color: white;
+      padding: 8px;
+      background-color: $card-background-color;
       position: absolute;
       top: 50%;
-      left: 1%;
+      left: 8px;
       transform: translate(-100%, -50%) rotate(45deg);
-      z-index: 1000;
     }
   }
 }

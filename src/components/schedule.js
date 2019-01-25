@@ -7,20 +7,20 @@ const Schedule = () => (
   <section className="agenda">
     <div className="agenda-header">
       <i className="icon ion-ios-time-outline" />
-      <h3>Agenda</h3>
+      <h3>{data.schedule.title}</h3>
     </div>
 
     <div className="agenda-grid">
-      {data.talks.map(item => (
+      {data.schedule.talks.map(talk => (
         <div className="agenda-container">
           <ScheduledEvent
-            image={item.image}
-            schedule={item.schedule}
-            title={item.title}
-            description={item.description}
-            video={item.video}
-            slides={item.slides}
-            repository={item.repository}
+            image={talk.image}
+            schedule={talk.schedule}
+            title={talk.title}
+            description={talk.description}
+            video={talk.video}
+            slides={talk.slides}
+            repository={talk.repository}
           />
         </div>
       ))}
