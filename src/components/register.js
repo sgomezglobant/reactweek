@@ -24,16 +24,12 @@ class Register extends Component {
   render () {
     return (
       <section className="register">
-        <header className="register-header">
-          <h2 className="register-header__title">Registrate</h2>
-        </header>
-        <main className="register-widget" id="eventbrite-widget-container-55239292210">
-        </main>
+        <main className="register-widget" id="eventbrite-widget-container-55239292210"/>
         <footer>
           <button
           className="register-widget__cta"
           id="eventbrite-widget-modal-trigger-55239292210" type="button">Registarse</button>
-          </footer>
+        </footer>
       </section>
     )
   }
