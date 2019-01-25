@@ -203,6 +203,12 @@ export default {
 
       },
       {
+        altImg: 'Andres Bedoya',
+        name: 'Andres Bedoya',
+        url: 'https://avatars1.githubusercontent.com/u/315504?v=4'
+
+      },
+      {
         altImg: 'Juan Mateo Garcia',
         name: 'Juan Mateo Garcia',
         url: 'https://avatars1.githubusercontent.com/u/19862755?v=4'

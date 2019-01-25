@@ -7,7 +7,7 @@ import '../styles/volunteers.scss';
 const Volunteers = () => (
   <section className="volunteers-container">
     <div className="volunteers-title">
-      <i className="icon ion-beer"></i>
+      <i className="icon ion-bonfire"></i>
       <h3>{data.volunteers.volunteersTitle}</h3>
     </div>  
     <div className="volunteers-list">
