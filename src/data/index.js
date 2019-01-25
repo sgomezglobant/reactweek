@@ -179,15 +179,15 @@ export default {
 
       },
       {
-        altImg: 'Omar',
-        name: 'Omar',
+        altImg: 'Omar Nava',
+        name: 'Omar Nava',
         url: 'https://avatars1.githubusercontent.com/u/8124929?v=4'
 
       },
       {
-        image: 'Andres',
-        name: 'Andres',
-        url: 'https://avatars0.githubusercontent.com/u/315504?v=4'
+        altImg: 'Jose D. Vásquez',
+        name: 'Jose D. Vásquez',
+        url: 'https://avatars0.githubusercontent.com/u/5192582?v=4'
 
       }
 

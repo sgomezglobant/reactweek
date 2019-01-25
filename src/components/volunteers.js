@@ -12,9 +12,9 @@ const Volunteers = () => (
     </div>  
     <div className="volunteers-list">
       {
-        data.volunteers.volunteersList.map( person => {
+        data.volunteers.volunteersList.map( (person, index) => {
           return (
-          <div className="volunteers-item">
+          <div className="volunteers-item" key={index}>
             <img src={person.url} width="100px;" alt={person.altImg}/>
             <b>{person.name}</b>
           </div>
