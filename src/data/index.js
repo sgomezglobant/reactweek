@@ -150,5 +150,47 @@ export default {
         url: 'http://pionerasdev.co/'
       }
     ]
+  },
+  volunteers: {
+    volunteersTitle: 'Heroes Reactweek',
+    volunteersList: [
+      {
+        altImg: 'Angela Ordoñez',
+        name: 'Angela ordoñez',
+        url: 'https://avatars3.githubusercontent.com/u/18565471?v=4'
+
+      },
+      {
+        altImg: 'Sebastian Gomez',
+        name: 'Sebastian Gomez',
+        url: 'https://avatars1.githubusercontent.com/u/20705054?v=4'
+
+      },
+      {
+        altImg: 'Jhonatan Uribe',
+        name: 'Jhonatan Uribe',
+        url: 'https://avatars1.githubusercontent.com/u/11787339?v=4'
+
+      },
+      {
+        altImg: 'Jorge Ivan Morales',
+        name: 'Jorge Ivan Morales',
+        url: 'https://avatars3.githubusercontent.com/u/1750884?v=4'
+
+      },
+      {
+        altImg: 'Omar',
+        name: 'Omar',
+        url: 'https://avatars1.githubusercontent.com/u/8124929?v=4'
+
+      },
+      {
+        image: 'Andres',
+        name: 'Andres',
+        url: 'https://avatars0.githubusercontent.com/u/315504?v=4'
+
+      }
+
+    ]
   }
 };
