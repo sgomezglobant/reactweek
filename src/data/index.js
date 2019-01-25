@@ -253,5 +253,9 @@ export default {
             }
 
         ]
+    },
+    map: {
+        title: 'Ubicación',
+        direction: 'Centro empresarial vizcaya.'
     }
 };
