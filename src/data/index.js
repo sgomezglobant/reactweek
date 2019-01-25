@@ -234,23 +234,6 @@ export default {
 
             },
             {
-                altImg: 'Jorge Ivan Morales',
-                name: 'Jorge Ivan Morales',
-                url: 'https://avatars3.githubusercontent.com/u/1750884?v=4'
-
-            },
-            {
-                altImg: 'Omar',
-                name: 'Omar',
-                url: 'https://avatars1.githubusercontent.com/u/8124929?v=4'
-
-            },
-            {
-                image: 'Andres',
-                name: 'Andres',
-                url: 'https://avatars0.githubusercontent.com/u/315504?v=4'
-            },
-            {
                 altImg: 'Duvan Gallego',
                 name: 'Duvan Gallego',
                 url: 'https://avatars3.githubusercontent.com/u/4497502?v=4'
