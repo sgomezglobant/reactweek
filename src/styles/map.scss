@@ -1,0 +1,26 @@
+@import "./variables.scss";
+
+.map {
+  margin-top: 4rem;
+
+  &__title {
+    position: relative;
+    color: $react-brand-black;
+    text-align: center;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 50%;
+      background-image: url("./../images/map.svg");
+      background-size: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 44px;
+      height: 57px;
+      transform: translate(-50%, -110%);
+    }
+  }
+
+}

@@ -1,10 +1,11 @@
 import React from 'react';
 
-import data from '../data'
+import data from '../data';
+import "./../styles/map.scss";
 
 const Map = () => (
-  <section>
-    <h2>{data.map.title}</h2>
+  <section className="map">
+    <h2 className="map__title">{data.map.title}</h2>
     <p>{data.map.direction}</p>
     <iframe
       title={data.map.direction}
