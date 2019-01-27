@@ -1,20 +1,16 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const organizationItem = props => {
+const organizationItem = ({ item }) => {
   return (
-    <a className="sponsor-url" href={props.item.url} name={props.item.name}>
-      <img src={props.item.image} alt={props.item.name}></img>
+    <a className="sponsor-url" href={item.url} name={item.name}>
+      <img src={item.image} alt={item.name}></img>
     </a>
   )
 }
 
 organizationItem.propTypes = {
-  item: PropTypes.shape({
-    image: PropTypes.string.isRequired,
-    name: PropTypes.string.isRequired,
-    url: PropTypes.string.isRequired
-  })
+  item: PropTypes.object
 }
 
 export default organizationItem

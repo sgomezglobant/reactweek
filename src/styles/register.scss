@@ -1,13 +1,13 @@
 @import "./variables.scss";
 
-.register {
+.rw-register {
   margin: 1rem 0;
 
   @media (min-width: 768px) {
     margin: 4rem 0;
   }
 
-  &-widget {
+  &__widget {
     width: 100%;
     min-height: 20rem;
 
@@ -41,7 +41,7 @@
       }
     }
 
-    &__cta {
+    &-cta {
       width: 100%;
       max-width: 80%;
       background-color: $react-brand-blue;

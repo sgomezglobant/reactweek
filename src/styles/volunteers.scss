@@ -1,28 +1,22 @@
 @import 'variables.scss';
 
-.volunteers-container {
+.rw-volunteers {
     margin: 2em 0;
-}
-.volunteers-title {
-    text-align: center;
 
-    i {
-    font-size: 4em;
-    color: $react-brand-blue; 
+    &__title {
+        text-align: center;
+    
+        i {
+        font-size: 4em;
+        color: $react-brand-blue; 
+        }
+    
+        h3 {
+        margin-bottom: 1em;
+        }
     }
 
-    h3 {
-    margin-bottom: 1em;
-    }
-}
-
-.volunteers-list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-
-    .volunteers-item {
+    &__item {
         margin: 10px;
         display: flex;
         flex-direction: column;
@@ -33,12 +27,20 @@
             border-radius: 50%;
             max-height: 150px;
             margin-bottom: 0;
+            width: 100px;
         }
 
-        b { 
+        b {
             text-align: center;
             width: 100%;
             font-size: 0.8em;
         }
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 }
