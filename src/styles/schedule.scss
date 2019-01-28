@@ -1,18 +1,18 @@
 @import 'variables.scss';
 
-.agenda {
+.rw-agenda {
   .icon {
     font-size: 4em;
     color: $react-brand-blue;
   }
 
-  .agenda-header {
+  &__header {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
   }
 
-  .agenda-grid {
+  &__grid {
     display: flex;
     align-content: center;
     flex-direction: column;
@@ -20,69 +20,69 @@
     padding: 1.5em;
   }
 
-  .agenda-container {
+  &__item {
     padding: 0;
     position: relative;
     margin-top: 25px;
   }
 
-  .agenda-container:first-child {
+  &__item:first-child {
     margin-top: 0;
   }
 
-  .card {
+  .event-card {
     width: 100%;
     box-shadow: -4px 0px 18px 0px rgba(130, 130, 130, 0.65);
-  }
 
-  .card-wrapper {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 15px;
-  }
+    &__wrapper {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 15px;
+    }
 
-  .card-image {
-    border-radius: 50%;
-    max-width: 70px;
-  }
+    &__image {
+      border-radius: 50%;
+      max-width: 70px;
+    }
 
-  .card-information {
-    padding-left: 1em;
-  }
+    &__information {
+      padding-left: 1em;
+    }
 
-  .card-schedule {
-    color: $event-date-color;
-    font-size: 1em;
-    margin-bottom: 0;
-    font-weight: 500;
-  }
+    &__schedule {
+      color: $event-date-color;
+      font-size: 1em;
+      margin-bottom: 0;
+      font-weight: 500;
+    }
 
-  .card-link {
-    text-decoration: none;
-    margin-right: 10px;
-    color: $link-color;
-  }
+    &__link {
+      text-decoration: none;
+      margin-right: 10px;
+      color: $link-color;
+    }
 
-  .card-title {
-    box-sizing: border-box;
-    margin-bottom: 0px;
-  }
+    &__title {
+      box-sizing: border-box;
+      margin-bottom: 0px;
+    }
 
-  .card-description {
-    font-size: 0.9em;
-    box-sizing: border-box;
-    line-height: 1.5em;
-    margin-bottom: 0;
-    color: $secondary-text-color;
+    &__description {
+      font-size: 0.9em;
+      box-sizing: border-box;
+      line-height: 1.5em;
+      margin-bottom: 0;
+      color: $secondary-text-color;
+    }
   }
 
   @media only screen and (min-width: 601px) {
-    .agenda-grid {
+    &__grid {
       padding: 1.5em 1.5em 1.5em 2.5em;
     }
 
-    .agenda-grid:before {
+    &__grid:before {
       content: '';
       position: absolute;
       left: 40px;
@@ -92,14 +92,14 @@
       top: 0px;
     }
 
-    .agenda-container {
+    &__item {
       margin-left: 55px;
       padding: 0;
       position: relative;
       margin-top: 25px;
     }
 
-    .agenda-container:before {
+    &__item:before {
       content: '';
       position: absolute;
       width: 20px;
@@ -111,7 +111,7 @@
       left: -69px;
     }
 
-    .card:after {
+    .event-card:after {
       content: ' ';
       padding: 8px;
       background-color: $card-background-color;
