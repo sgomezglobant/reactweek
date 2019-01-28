@@ -1,99 +1,124 @@
-a {
-  font-size: 15px;
-  text-decoration: none;
-  margin-right: 10px;
-  color: #039be5;
-}
+@import 'variables.scss';
 
-.card {
-  width: 100%;
-  box-shadow: 0px 0px 18px 0px rgba(130, 130, 130, 0.65);
-}
+.rw-agenda {
+  .icon {
+    font-size: 4em;
+    color: $react-brand-blue;
+  }
 
-.card:after {
-  content: ' ';
-  padding: 1%;
-  background-color: white;
-  position: absolute;
-  top: 50%;
-  left: 1%;
-  transform: translate(-100%, -50%) rotate(45deg);
-  z-index: 1000;
-}
+  &__header {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
 
-.card-wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 15px;
-}
+  &__grid {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    position: relative;
+    padding: 1.5em;
+  }
 
-.card-image {
-  border-radius: 50%;
-  max-width: 70px;
-}
+  &__item {
+    padding: 0;
+    position: relative;
+    margin-top: 25px;
+  }
 
-.card-information {
-  padding-left: 1em;
-}
+  &__item:first-child {
+    margin-top: 0;
+  }
 
-.schedule {
-  color: #73b518;
-  font-size: 1em;
-  margin-bottom: 0;
-  font-weight: 500;
-}
+  .event-card {
+    width: 100%;
+    box-shadow: -4px 0px 18px 0px rgba(130, 130, 130, 0.65);
 
-.card-title {
-  box-sizing: border-box;
-  margin-bottom: 0px;
-  font-size: 15px;
-}
+    &__wrapper {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 15px;
+    }
 
-.card-description {
-  font-size: 15px;
-  box-sizing: border-box;
-  line-height: 22px;
-  margin-bottom: 0;
-}
+    &__image {
+      border-radius: 50%;
+      max-width: 70px;
+    }
 
-.agenda-grid {
-  display: flex;
-  align-content: center;
-  flex-direction: column;
-  position: relative;
-  padding: 25px 25px 25px 40px;
-}
+    &__information {
+      padding-left: 1em;
+    }
 
-.agenda-grid:before {
-  content: '';
-  position: absolute;
-  left: 40px;
-  height: 100%;
-  width: 2px;
-  background: #cecece;
-  top: 0px;
-}
+    &__schedule {
+      color: $event-date-color;
+      font-size: 1em;
+      margin-bottom: 0;
+      font-weight: 500;
+    }
 
-.agenda-container {
-  margin-left: 55px;
-  padding: 0;
-  position: relative;
-  margin-top: 25px;
-}
+    &__link {
+      text-decoration: none;
+      margin-right: 10px;
+      color: $link-color;
+    }
 
-.agenda-container:first-child {
-  margin-top: 0;
-}
+    &__title {
+      box-sizing: border-box;
+      margin-bottom: 0px;
+    }
 
-.agenda-container:before {
-  content: '';
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  background: #c5c5c5;
-  top: 50%;
-  transform: translateY(-50%);
-  border-radius: 50%;
-  left: -64px;
+    &__description {
+      font-size: 0.9em;
+      box-sizing: border-box;
+      line-height: 1.5em;
+      margin-bottom: 0;
+      color: $secondary-text-color;
+    }
+  }
+
+  @media only screen and (min-width: 601px) {
+    &__grid {
+      padding: 1.5em 1.5em 1.5em 2.5em;
+    }
+
+    &__grid:before {
+      content: '';
+      position: absolute;
+      left: 40px;
+      height: 100%;
+      width: 2px;
+      background: $agenda-grid-background-color;
+      top: 0px;
+    }
+
+    &__item {
+      margin-left: 55px;
+      padding: 0;
+      position: relative;
+      margin-top: 25px;
+    }
+
+    &__item:before {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background: $agenda-grid-background-color;
+      top: 50%;
+      transform: translateY(-50%);
+      border-radius: 50%;
+      left: -69px;
+    }
+
+    .event-card:after {
+      content: ' ';
+      padding: 8px;
+      background-color: $card-background-color;
+      position: absolute;
+      top: 50%;
+      left: 8px;
+      transform: translate(-100%, -50%) rotate(45deg);
+    }
+  }
 }

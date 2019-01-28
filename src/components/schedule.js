@@ -1,22 +1,26 @@
 import React from 'react';
-import AgendaCard from './agendaCard';
+import ScheduledEvent from './scheduledEvent';
 import data from '../data';
 import '../styles/schedule.scss';
 
 const Schedule = () => (
   <section className="rw-agenda">
-    <h2>Agenda</h2>
-    <div className="agenda-grid">
-      {data.talks.map((item, index) => (
-        <div className="agenda-container" key={index}>
-          <AgendaCard
-            image={item.image}
-            schedule={item.schedule}
-            title={item.title}
-            description={item.description}
-            video={item.video}
-            slides={item.slides}
-            repository={item.repository}
+    <div className="rw-agenda__header">
+      <i className="icon ion-ios-time-outline" />
+      <h3>{data.schedule.title}</h3>
+    </div>
+
+    <div className="rw-agenda__grid">
+      {data.schedule.talks.map((talk, index) => (
+        <div className="rw-agenda__item" key={index}>
+          <ScheduledEvent
+            image={talk.image}
+            schedule={talk.schedule}
+            title={talk.title}
+            description={talk.description}
+            video={talk.video}
+            slides={talk.slides}
+            repository={talk.repository}
           />
         </div>
       ))}
