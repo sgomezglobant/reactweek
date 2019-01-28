@@ -6,11 +6,11 @@ import "./../styles/speakers.scss";
 // Speakers component
 
 const Speakers = () => (
-  <section className="speakers">
-    <header className="speakers__details">
-      <h2 className="speakers__title">Speakers</h2>
+  <section className="rw-speakers">
+    <header className="rw-speakers__details">
+      <h2 className="rw-speakers__title">Speakers</h2>
     </header>
-    <main className="speakers-grid">
+    <main className="rw-speakers-grid">
       {resources.speakers.map(({id, ...speaker}) => <SpeakerItem key={id} {...speaker} />)}
     </main>
   </section>

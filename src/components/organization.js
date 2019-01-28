@@ -5,12 +5,12 @@ import data from '../data'
 import '../styles/organization.scss'
 
 const organization = () => (
-  <section className="sponsors-container">
-    <div className="title-container">
+  <section className="rw-sponsors">
+    <div className="rw-sponsors__title">
       <i className="icon ion-ios-star-outline"></i>
       <h3>{data.organization.sponsorsTitle}</h3>
     </div>
-    <div className="item-group sponsors-list">
+    <div className="rw-sponsors__list">
       {
         data.organization.sponsors.map((sponsor, index) => {
           return (
