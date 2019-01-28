@@ -4,11 +4,11 @@ import data from '../data';
 import '../styles/schedule.scss';
 
 const Schedule = () => (
-  <section className="agenda">
+  <section className="rw-agenda">
     <h2>Agenda</h2>
     <div className="agenda-grid">
-      {data.talks.map(item => (
-        <div className="agenda-container">
+      {data.talks.map((item, index) => (
+        <div className="agenda-container" key={index}>
           <AgendaCard
             image={item.image}
             schedule={item.schedule}

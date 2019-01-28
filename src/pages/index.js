@@ -17,7 +17,7 @@ import '../styles/page.scss';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Home" keywords={[`React`, `React Week`, `Medellin`, `Globant`, `Developer Week`]} />
     <Speakers />
     <Schedule />
     <Map />
