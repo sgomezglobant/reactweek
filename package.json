@@ -32,10 +32,12 @@
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
     "contributors:add": "all-contributors add",
-    "contributors:generate": "all-contributors generate"
+    "contributors:generate": "all-contributors generate",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "devDependencies": {
     "all-contributors-cli": "^5.10.2",
+    "gh-pages": "^2.0.1",
     "prettier": "^1.15.2"
   },
   "repository": {

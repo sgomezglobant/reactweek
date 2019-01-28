@@ -6,3 +6,4 @@ node_modules
 .cache
 public/
 .idea/
+src/images/.DS_Store
