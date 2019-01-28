@@ -11,7 +11,7 @@ import Map from '../components/map';
 import Organization from '../components/organization';
 import Communities from '../components/communities';
 import Volunteers from '../components/volunteers';
-import Register from '../components/register';
+import RegisterButton from '../components/registerButton';
 
 import '../styles/page.scss';
 
@@ -21,7 +21,7 @@ const IndexPage = () => (
     <Speakers />
     <Schedule />
     <Map />
-    <Register />
+    <RegisterButton to={"https://www.eventbrite.com/e/react-week-medellin-2019-tickets-55239292210#tickets"} />
     <Organization />
     <Communities />
     <Volunteers />

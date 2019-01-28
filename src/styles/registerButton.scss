@@ -1,0 +1,23 @@
+@import "./variables.scss";
+
+.register-button {
+  width: 100%;
+  max-width: 60%;
+  background-color: $react-brand-blue;
+  border: 0;
+  text-align: center;
+  box-shadow: 1px 1px 1.5px 1px rgba($react-brand-black, 0.15);
+  outline: none;
+  padding: 10px;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 4px;
+  font-weight: bold;
+  color: rgba(white, 0.9);
+  font-size: 0.935rem;
+  text-decoration: none;
+
+  @media (min-width: 768px) {
+    max-width: 35%;
+  }
+}
