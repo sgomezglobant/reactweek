@@ -21,7 +21,7 @@ const IndexPage = () => (
     <Speakers />
     <Schedule />
     <Map />
-    <RegisterButton to={"https://www.eventbrite.com/e/react-week-medellin-2019-tickets-55239292210#tickets"} />
+    <RegisterButton/>
     <Organization />
     <Communities />
     <Volunteers />
