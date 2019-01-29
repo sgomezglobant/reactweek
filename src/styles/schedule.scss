@@ -33,12 +33,14 @@
   .event-card {
     width: 100%;
     box-shadow: -4px 0px 18px 0px rgba(130, 130, 130, 0.65);
+    
 
     &__wrapper {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       align-items: center;
       padding: 15px;
+      font-size: 0.9em;
     }
 
     &__image {
@@ -50,26 +52,27 @@
       padding-left: 1em;
     }
 
-    &__schedule {
+    &__title {
       color: $event-date-color;
-      font-size: 1em;
+      font-size: 1.15em;
       margin-bottom: 0;
       font-weight: 500;
     }
 
     &__link {
-      text-decoration: none;
-      margin-right: 10px;
       color: $link-color;
+      margin-right: 10px;
+      text-decoration: none;
+      font-size: 0.9em;
     }
 
-    &__title {
+    &__schedule {
       box-sizing: border-box;
       margin-bottom: 0px;
+      font-weight: 600;
     }
 
     &__description {
-      font-size: 0.9em;
       box-sizing: border-box;
       line-height: 1.5em;
       margin-bottom: 0;
@@ -90,6 +93,12 @@
       width: 2px;
       background: $agenda-grid-background-color;
       top: 0px;
+    }
+
+    .event-card {
+      &__wrapper {
+        flex-direction: row;  
+      }
     }
 
     &__item {
