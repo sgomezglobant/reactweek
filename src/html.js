@@ -14,13 +14,13 @@ export default class HTML extends React.Component {
           />
           <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet"></link>
           {this.props.headComponents}
-          {/* <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132930830-1"></script>
+          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132930830-1"></script>
           <script
             dangerouslySetInnerHTML={{
               __html: `(function(){window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-132930830-1');})()`
             }}
           >
-          </script> */}
+          </script>
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}
