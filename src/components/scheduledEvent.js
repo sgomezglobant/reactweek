@@ -1,4 +1,5 @@
 import React from 'react';
+import { withPrefix } from 'gatsby';
 
 const ScheduledEvent = ({
   image,
@@ -11,7 +12,7 @@ const ScheduledEvent = ({
 }) => (
   <div className="event-card">
     <div className="event-card__wrapper">
-      <img className="event-card__image" src={image} alt="avatar" />
+      <img className="event-card__image" src={withPrefix(`speakers/${image}`)} alt="avatar" />
       <div className="event-card__information">
         <h2 className="event-card__title">{title}</h2>
 

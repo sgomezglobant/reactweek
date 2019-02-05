@@ -4,7 +4,7 @@ export default {
     talks: [
       {
         schedule: 'Pendiente',
-        image: 'http://i.pravatar.cc/300',
+        image: 'KhriZtiaN_Moreno.jpg',
         title: 'Consumiendo datos GraphQL en React con Apollo Client',
         description:
           'Este taller te proporcionará una introducción clara pero completa sobre cómo obtener y actualizar datos remotos desde un endpoint GraphQL, así como la administración del estado local utilizando Apollo Client en combinación con React.',
@@ -13,7 +13,7 @@ export default {
       },
       {
         schedule: 'Martes 06:30pm - 7:30pm',
-        image: 'http://i.pravatar.cc/302',
+        image: 'Johnny_Iv_Young_Ospino.jpg',
         title: "StoryBook: The UI Development Environment You'll ♥️ to use",
         description:
           'Storybook is a development environment for UI components built using JavaScript frameworks including React, Vue, Angular and Svelte as well.  Provides some unique options for visualizing the interactive state of your application, along with an extensive set of addons.',
@@ -21,7 +21,7 @@ export default {
         video: 'https://youtu.be/62EtV33NWmc?t=45m45s',
       },
       {
-        image: 'http://i.pravatar.cc/301',
+        image: 'Fabio_Cortes.jpg',
         schedule: 'Miércoles 05:30pm - 06:30pm',
         title: 'Explorando la transición de React VR a React 360',
         description:
@@ -32,7 +32,7 @@ export default {
         video: 'https://youtu.be/mPMIFaVHLlY?t=11m24s',
       },
       {
-        image: '../../images/KhriZtiaN_Moreno.jpg',
+        image: 'Oscar_Andres_Granada.jpg',
         schedule: 'Miércoles- 06:30 pm - 7:30pm',
         title: 'React.js for Javascript developers',
         description:
@@ -42,7 +42,7 @@ export default {
         video: 'https://youtu.be/mPMIFaVHLlY?t=1h16m23s',
       },
       {
-        image: 'http://i.pravatar.cc/301',
+        image: 'Roberto_Rojas_Fernandez.jpg',
         schedule: 'Miércoles- 06:30 pm - 7:30pm',
         title: 'Integrating React JS with Azure Cognitive Services',
         description:
@@ -52,7 +52,7 @@ export default {
         video: 'https://youtu.be/mPMIFaVHLlY?t=1h16m23s',
       },
       {
-        image: 'http://i.pravatar.cc/301',
+        image: 'Carlos_Gonzalez.jpg',
         schedule: 'Miércoles- 06:30 pm - 7:30pm',
         title: 'Creating a Small State Manager using the Context API',
         description:
@@ -62,7 +62,7 @@ export default {
         video: 'https://youtu.be/mPMIFaVHLlY?t=1h16m23s',
       },
       {
-        image: 'http://i.pravatar.cc/301',
+        image: 'Alejandro_Garcia_Serna.jpg',
         schedule: 'Miércoles- 06:30 pm - 7:30pm',
         title: 'Simplifica el manejo de tu estado con MobX',
         description:
@@ -72,7 +72,7 @@ export default {
         video: 'https://youtu.be/mPMIFaVHLlY?t=1h16m23s',
       },
       {
-        image: 'http://i.pravatar.cc/301',
+        image: 'Alejandro_Nanez_Ortiz.jpg',
         schedule: 'Miércoles- 06:30 pm - 7:30pm',
         title:
           'Stop repeating your code between your Applications. Monorepos to the rescue!',
@@ -83,7 +83,7 @@ export default {
         video: 'https://youtu.be/mPMIFaVHLlY?t=1h16m23s',
       },
       {
-        image: 'http://i.pravatar.cc/301',
+        image: 'Santiago_Galvis_Riveros.jpg',
         schedule: 'Miércoles- 06:30 pm - 7:30pm',
         title: 'Angular & React basis',
         description:
@@ -93,7 +93,7 @@ export default {
         video: 'https://youtu.be/mPMIFaVHLlY?t=1h16m23s',
       },
       {
-        image: 'http://i.pravatar.cc/301',
+        image: 'Carlos_Gonzalez.jpg',
         schedule: 'Miércoles- 06:30 pm - 7:30pm',
         title: 'React Native, Desarrolla Aplicaciones Nativas usando JS',
         description:
@@ -103,7 +103,7 @@ export default {
         video: 'https://youtu.be/mPMIFaVHLlY?t=1h16m23s',
       },
       {
-        image: 'http://i.pravatar.cc/301',
+        image: 'Jonathan_Alvarez_Gonzalez.jpg',
         schedule: 'Miércoles- 06:30 pm - 7:30pm',
         title: 'React Hooks + React Context. ¿No más Redux?',
         description:
@@ -113,7 +113,7 @@ export default {
         video: 'https://youtu.be/mPMIFaVHLlY?t=1h16m23s',
       },
       {
-        image: 'http://i.pravatar.cc/301',
+        image: 'Jonathan_Alvarez_Gonzalez.jpg',
         schedule: 'Miércoles- 06:30 pm - 7:30pm',
         title: 'Tal vez no necesites Redux',
         description:
@@ -123,7 +123,7 @@ export default {
         video: 'https://youtu.be/mPMIFaVHLlY?t=1h16m23s',
       },
       {
-        image: 'http://i.pravatar.cc/301',
+        image: 'Ely_Alvarado.jpg',
         schedule: 'Miércoles- 06:30 pm - 7:30pm',
         title: 'Side-effects en Redux con RxJS y redux-observable',
         description:
@@ -133,7 +133,7 @@ export default {
         video: 'https://youtu.be/mPMIFaVHLlY?t=1h16m23s',
       },
       {
-        image: 'http://i.pravatar.cc/301',
+        image: 'Alex_Ramirez.jpg',
         schedule: 'Miércoles- 06:30 pm - 7:30pm',
         title: 'Internationalization of React Apps',
         description:
@@ -143,7 +143,7 @@ export default {
         video: 'https://youtu.be/mPMIFaVHLlY?t=1h16m23s',
       },
       {
-        image: 'http://i.pravatar.cc/301',
+        image: 'Elsa_Katherine_Olivares_Calderon.jpg',
         schedule: 'Miércoles- 06:30 pm - 7:30pm',
         title: 'React Context vs Mobx',
         description:
@@ -153,7 +153,7 @@ export default {
         video: 'https://youtu.be/mPMIFaVHLlY?t=1h16m23s',
       },
       {
-        image: 'http://i.pravatar.cc/301',
+        image: 'Mauricio_Arroyave.jpg',
         schedule: 'Miércoles- 06:30 pm - 7:30pm',
         title: 'Navigation in deep for RN.',
         description:
@@ -163,7 +163,7 @@ export default {
         video: 'https://youtu.be/mPMIFaVHLlY?t=1h16m23s',
       },
       {
-        image: 'http://i.pravatar.cc/301',
+        image: 'Johann_Paul_Echavarria_Zapata.jpg',
         schedule: 'Miércoles- 06:30 pm - 7:30pm',
         title: 'Performance y React',
         description: 'Experimentos de performance con React.',
@@ -177,7 +177,7 @@ export default {
     {
       id: 1,
       pic: 'KhriZtiaN_Moreno.jpg',
-      name: 'KhriZtiaN Moreno',
+      name: 'Cristian Moreno',
       description: 'Pendiente',
       github: 'pendiente',
       facebook: 'pendiente',
