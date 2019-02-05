@@ -11,7 +11,7 @@ const SpeakerItem = ({ pic, name, description, github, facebook, twitter }) => {
       <figure className="speakers-grid__figure">
         <img
           className="speakers-grid__img"
-          src={withPrefix(pic)}
+          src={withPrefix(`speakers/${pic}`)}
           alt="Foto del speaker"
         />
         <figcaption className="speakers-grid__name">{name}</figcaption>
