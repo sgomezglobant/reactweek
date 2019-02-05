@@ -4,7 +4,7 @@ module.exports = {
     description: `Developer Week: React`,
     author: `@globant`,
   },
-  pathPrefix: "/sgomezglobant/reactweek",
+  pathPrefix: '/sgomezglobant/reactweek',
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
@@ -33,4 +33,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
   ],
-}
+};
