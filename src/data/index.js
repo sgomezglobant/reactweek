@@ -3,8 +3,8 @@ export default {
     title: 'Agenda',
     talks: [
       {
-        schedule: 'Pendiente',
         image: 'KhriZtiaN_Moreno.jpg',
+        schedule: 'Pendiente',
         title: 'Consumiendo datos GraphQL en React con Apollo Client',
         description:
           'Este taller te proporcionará una introducción clara pero completa sobre cómo obtener y actualizar datos remotos desde un endpoint GraphQL, así como la administración del estado local utilizando Apollo Client en combinación con React.',
@@ -12,8 +12,8 @@ export default {
         video: 'https://youtu.be/62EtV33NWmc?t=25m25s',
       },
       {
-        schedule: 'Martes 06:30pm - 7:30pm',
         image: 'Johnny_Iv_Young_Ospino.jpg',
+        schedule: 'pendiente',
         title: "StoryBook: The UI Development Environment You'll ♥️ to use",
         description:
           'Storybook is a development environment for UI components built using JavaScript frameworks including React, Vue, Angular and Svelte as well.  Provides some unique options for visualizing the interactive state of your application, along with an extensive set of addons.',
@@ -22,7 +22,7 @@ export default {
       },
       {
         image: 'Fabio_Cortes.jpg',
-        schedule: 'Miércoles 05:30pm - 06:30pm',
+        schedule: 'pendiente',
         title: 'Explorando la transición de React VR a React 360',
         description:
           'Desde que Facebook decidió propulsar la realidad virtual con la adquisición de Oculus, sus esfuerzos se volcaron al desarrollo del framework React VR. Al mismo tiempo, la comunidad de desarrolladores aunó esfuerzos que mejoraron las características y posibilidades que dicha librería permitía para la construcción de experiencias de realidad virtual. Sin embargo, el camino que esto tomó en el último año, hizo que el objetivo inicial para el que esta herramienta fue pensado se alejara de la versión que utilizaban internamente en Facebook para sus desarrollos nativos. Así pues, para evitar confusiones, el framework open source fue renombrado como React 360, que refleja mejor el objeto del mismo, que es la creación de experiencias 360 inmersivas para PC, movil y headsets VR. En esta nueva versión, se simplificaron algunos procesos, se agregaron novedosos elementos de UI en 2D y se optimizó el rendimiento para esos casos de uso. Adicionalmente, se introdujeron algunos conceptos como Runtime, Executors y Surfaces.',
@@ -33,7 +33,7 @@ export default {
       },
       {
         image: 'Oscar_Andres_Granada.jpg',
-        schedule: 'Miércoles- 06:30 pm - 7:30pm',
+        schedule: 'pendiente',
         title: 'React.js for Javascript developers',
         description:
           "React.js is one of the most famous libraries in the modern web, however many times people think that all magic stuff used with React.js is part of the library's black magic and ignore that many of them have been powered by old and new ECMAScript awesome features. This session is to show how to use ES2015+ to develop better React.js components.",
@@ -43,7 +43,7 @@ export default {
       },
       {
         image: 'Roberto_Rojas_Fernandez.jpg',
-        schedule: 'Miércoles- 06:30 pm - 7:30pm',
+        schedule: 'pendiente',
         title: 'Integrating React JS with Azure Cognitive Services',
         description:
           'An overview how to use various Azure Based Cognitive Services in a ReactJS Application',
@@ -53,7 +53,7 @@ export default {
       },
       {
         image: 'Carlos_Gonzalez.jpg',
-        schedule: 'Miércoles- 06:30 pm - 7:30pm',
+        schedule: 'pendiente',
         title: 'Creating a Small State Manager using the Context API',
         description:
           'In this session, the assistants will be guided through the creation of a small redux-like state manager (similar to waterfall) using the Context API, which will give them a deeper understanding of its inner workings, and strengthen some basic concepts like the React one way data flow and the fundamentals of functional programming in JavaScript',
@@ -63,7 +63,7 @@ export default {
       },
       {
         image: 'Alejandro_Garcia_Serna.jpg',
-        schedule: 'Miércoles- 06:30 pm - 7:30pm',
+        schedule: 'pendiente',
         title: 'Simplifica el manejo de tu estado con MobX',
         description:
           'Manejar el estado de nuestras aplicaciones puede requerir de mucho boilerplate, MobX nos permite manejar modelos de datos complejos de una manera simple y eficiente.',
@@ -73,7 +73,7 @@ export default {
       },
       {
         image: 'Alejandro_Nanez_Ortiz.jpg',
-        schedule: 'Miércoles- 06:30 pm - 7:30pm',
+        schedule: 'pendiente',
         title:
           'Stop repeating your code between your Applications. Monorepos to the rescue!',
         description:
@@ -84,7 +84,7 @@ export default {
       },
       {
         image: 'Santiago_Galvis_Riveros.jpg',
-        schedule: 'Miércoles- 06:30 pm - 7:30pm',
+        schedule: 'pendiente',
         title: 'Angular & React basis',
         description:
           'Basic Angular and React integration basis and principles.',
@@ -94,7 +94,7 @@ export default {
       },
       {
         image: 'Carlos_Gonzalez.jpg',
-        schedule: 'Miércoles- 06:30 pm - 7:30pm',
+        schedule: 'pendiente',
         title: 'React Native, Desarrolla Aplicaciones Nativas usando JS',
         description:
           'En esta charla los asistentes aprenderán los conceptos básicos de React Native, su diferencia con otras plataformas, y todas las bases necesarias para aprender a desarrollar aplicativos móviles usando React Native, así como un par de extras, incluyendo bases de state management con redux para la aplicación móvil.',
@@ -104,7 +104,7 @@ export default {
       },
       {
         image: 'Jonathan_Alvarez_Gonzalez.jpg',
-        schedule: 'Miércoles- 06:30 pm - 7:30pm',
+        schedule: 'pendiente',
         title: 'React Hooks + React Context. ¿No más Redux?',
         description:
           'Veamos cómo utilizar la nueva  y no oficial API de Hooks, junto con Context para recrear una arquitectura muy similar a la que nos ofrece Redux.',
@@ -114,7 +114,7 @@ export default {
       },
       {
         image: 'Jonathan_Alvarez_Gonzalez.jpg',
-        schedule: 'Miércoles- 06:30 pm - 7:30pm',
+        schedule: 'pendiente',
         title: 'Tal vez no necesites Redux',
         description:
           'Razones, alternativas y valor actual de Redux en aplicaciones modernas con React.',
@@ -124,7 +124,7 @@ export default {
       },
       {
         image: 'Ely_Alvarado.jpg',
-        schedule: 'Miércoles- 06:30 pm - 7:30pm',
+        schedule: 'pendiente',
         title: 'Side-effects en Redux con RxJS y redux-observable',
         description:
           'RxJS es la librería más popular para programación reactiva en Javascript, y gracias `redux-observable` podemos integrarla con redux para manejar los efectos colaterales en nuestro aplicación. En esta charla explicaré como integrar redux-observable en una aplicación React, y los patrones más comunes de uso de observables en el manejo de llamadas a red, navegación y otros.',
@@ -134,7 +134,7 @@ export default {
       },
       {
         image: 'Alex_Ramirez.jpg',
-        schedule: 'Miércoles- 06:30 pm - 7:30pm',
+        schedule: 'pendiente',
         title: 'Internationalization of React Apps',
         description:
           'Applications are often required to work worldwide, people from different cultures, who speak other languages and use diverse currencies will use these applications. ',
@@ -144,7 +144,7 @@ export default {
       },
       {
         image: 'Elsa_Katherine_Olivares_Calderon.jpg',
-        schedule: 'Miércoles- 06:30 pm - 7:30pm',
+        schedule: 'pendiente',
         title: 'React Context vs Mobx',
         description:
           'En esta charla veremos la diferencia entre React Context y Mobx, una visión general de cada uno y en qué casos se pueden utilizar.',
@@ -154,7 +154,7 @@ export default {
       },
       {
         image: 'Mauricio_Arroyave.jpg',
-        schedule: 'Miércoles- 06:30 pm - 7:30pm',
+        schedule: 'pendiente',
         title: 'Navigation in deep for RN.',
         description:
           'in this talk we will talk about navigation in react native and how to can link together different navigations like drawer navigation, tab navigation and stack navigation. ',
@@ -164,7 +164,7 @@ export default {
       },
       {
         image: 'Johann_Paul_Echavarria_Zapata.jpg',
-        schedule: 'Miércoles- 06:30 pm - 7:30pm',
+        schedule: 'pendiente',
         title: 'Performance y React',
         description: 'Experimentos de performance con React.',
         slides: 'https://slides.com/carlosangulo/angular-week-2018',
