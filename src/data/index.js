@@ -185,7 +185,7 @@ export default {
     },
     {
       id: 2,
-      pic: 'KhriZtiaN_Moreno.jpg',
+      pic: 'Johnny_Iv_Young_Ospino.jpg',
       name: 'Johnny Iv Young Ospino',
       description: 'pendiente',
       github: 'pendiente',
@@ -194,7 +194,7 @@ export default {
     },
     {
       id: 3,
-      pic: 'KhriZtiaN_Moreno.jpg',
+      pic: 'Fabio_Cortes.jpg',
       name: 'Fabio Cortes',
       description: 'pendiente',
       github: 'pendiente',
@@ -203,7 +203,7 @@ export default {
     },
     {
       id: 4,
-      pic: 'KhriZtiaN_Moreno.jpg',
+      pic: 'Oscar_Andres_Granada.jpg',
       name: 'Oscar Andres Granada',
       description: 'pendiente',
       github: 'pendiente',
@@ -212,7 +212,7 @@ export default {
     },
     {
       id: 5,
-      pic: 'KhriZtiaN_Moreno.jpg',
+      pic: 'Roberto_Rojas_Fernandez.jpg',
       name: 'Roberto Rojas Fernandez',
       description: 'pendiente',
       github: 'pendiente',
@@ -221,7 +221,7 @@ export default {
     },
     {
       id: 6,
-      pic: 'KhriZtiaN_Moreno.jpg',
+      pic: 'Carlos_Gonzalez.jpg',
       name: 'Carlos Gonzalez',
       description: 'pendiente',
       github: 'pendiente',
@@ -230,7 +230,7 @@ export default {
     },
     {
       id: 7,
-      pic: 'KhriZtiaN_Moreno.jpg',
+      pic: 'Alejandro_Garcia_Serna.jpg',
       name: 'Alejandro Garcia Serna',
       description: 'pendiente',
       github: 'pendiente',
@@ -239,7 +239,7 @@ export default {
     },
     {
       id: 8,
-      pic: 'KhriZtiaN_Moreno.jpg',
+      pic: 'Alejandro_Nanez_Ortiz.jpg',
       name: 'Alejandro Ñáñez Ortiz',
       description: 'pendiente',
       github: 'pendiente',
@@ -248,7 +248,7 @@ export default {
     },
     {
       id: 9,
-      pic: 'KhriZtiaN_Moreno.jpg',
+      pic: 'Santiago_Galvis_Riveros.jpg',
       name: 'Santiago Galvis Riveros',
       description: 'pendiente',
       github: 'pendiente',
@@ -257,7 +257,7 @@ export default {
     },
     {
       id: 10,
-      pic: 'KhriZtiaN_Moreno.jpg',
+      pic: 'Jonathan_Alvarez_Gonzalez.jpg',
       name: 'Jonathan Alvarez Gonzalez',
       description: 'pendiente',
       github: 'pendiente',
@@ -266,7 +266,7 @@ export default {
     },
     {
       id: 11,
-      pic: 'KhriZtiaN_Moreno.jpg',
+      pic: 'Ely_Alvarado.jpg',
       name: 'Ely Alvarado',
       description: 'pendiente',
       github: 'pendiente',
@@ -275,7 +275,7 @@ export default {
     },
     {
       id: 12,
-      pic: 'KhriZtiaN_Moreno.jpg',
+      pic: 'Alex_Ramirez.jpg',
       name: 'Alex Ramirez',
       description: 'pendiente',
       github: 'pendiente',
@@ -284,7 +284,7 @@ export default {
     },
     {
       id: 13,
-      pic: 'KhriZtiaN_Moreno.jpg',
+      pic: 'Elsa_Katherine_Olivares_Calderon.jpg',
       name: 'Elsa Katherine Olivares Calderon',
       description: 'pendiente',
       github: 'pendiente',
@@ -293,7 +293,7 @@ export default {
     },
     {
       id: 14,
-      pic: 'KhriZtiaN_Moreno.jpg',
+      pic: 'Mauricio_Arroyave.jpg',
       name: 'Mauricio Arroyave',
       description: 'pendiente',
       github: 'pendiente',
@@ -302,7 +302,7 @@ export default {
     },
     {
       id: 15,
-      pic: 'KhriZtiaN_Moreno.jpg',
+      pic: 'Johann_Paul_Echavarria_Zapata.jpg',
       name: 'Johann Paul Echavarría Zapata',
       description: 'pendiente',
       github: 'pendiente',
