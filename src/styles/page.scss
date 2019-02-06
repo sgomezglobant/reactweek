@@ -1,6 +1,48 @@
-@import "./variables.scss";
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600,700");
+@import './variables.scss';
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700');
 
 body {
   font-family: $page-font;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.cta-link {
+  font-family: $page-font;
+  font-weight: 600;
+  display: inline-block;
+  padding: 10px 25px;
+  border-radius: 15px;
+  background-color: $rw-blue-color;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $rw-white-color;
+  transition: background-color 0.3s;
+  &:hover {
+    background-color: darken($color: $rw-blue-color, $amount: 8);
+  }
+}
+
+.rw-section {
+  padding: 60px 0;
+  background-color: $rw-white-color;
+  &--gray {
+    background-color: $rw-gray-color;
+  }
+  &__icon {
+  }
+
+  &__title {
+    margin-top: 10px;
+    color: $rw-black-color;
+    font-weight: 600;
+  }
 }
