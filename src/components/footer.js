@@ -1,11 +1,11 @@
 import React from 'react';
-import RegisterButton from './../components/registerButton'
+import RegisterButton from './../components/registerButton';
 
-import '../styles/footer.css';
+import '../styles/footer.scss';
 
 const Footer = () => (
   <footer className="rw-footer">
-    <h3>¡No te lo pierdas!</h3>
+    <h3 className="rw-footer__title">¡No te lo pierdas!</h3>
     <RegisterButton />
   </footer>
 );

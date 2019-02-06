@@ -1,0 +1,25 @@
+@import 'variables';
+
+.rw-footer {
+  background: linear-gradient(
+      to right,
+      rgba($rw-blue-color, 0.6) 30%,
+      rgba($rw-green-color, 0.6)
+    ),
+    url('../images/globant-medellin.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__title {
+    color: $rw-white-color;
+    font-weight: 600;
+    font-family: $page-font;
+    font-size: 1.9em;
+    margin-bottom: 1.5em;
+  }
+}
