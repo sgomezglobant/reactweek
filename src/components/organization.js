@@ -1,23 +1,14 @@
-import React from 'react'
+import React from 'react';
 
-import OrganizationItem from './organizationItem'
-import data from '../data'
-import '../styles/organization.scss'
+import Sponsors from './sponsors';
+import Communities from './communities';
+import '../styles/organization.scss';
 
 const organization = () => (
-  <section className="rw-sponsors">
-    <div className="rw-sponsors__title">
-      <i className="icon ion-ios-star-outline"></i>
-      <h3>{data.organization.sponsorsTitle}</h3>
-    </div>
-    <div className="rw-sponsors__list">
-      {
-        data.organization.sponsors.map((sponsor, index) => {
-          return (
-            <OrganizationItem key={index} item={sponsor} />
-          )
-        })
-      }
+  <section className="rw-organization rw-section">
+    <div className="rw-organization__content rw-section__content">
+      <Sponsors />
+      <Communities />
     </div>
   </section>
 );

@@ -6,7 +6,7 @@ import data from '../data';
 import '../styles/schedule.scss';
 
 const Schedule = () => (
-  <section className="rw-section rw-section--gray">
+  <section className="rw-section">
     <ClockIcon />
     <h3 className="rw-section__title">{data.schedule.title}</h3>
     <div className="rw-section__content">

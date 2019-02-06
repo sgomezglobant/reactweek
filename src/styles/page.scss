@@ -19,16 +19,16 @@ body {
   font-size: 0.9em;
   font-weight: 600;
   display: inline-block;
-  padding: 10px 35px;
-  border-radius: 15px;
-  background-color: $rw-blue-color;
+  padding: 0.6em 2.2em;
+  border-radius: 1em;
+  background-color: $rw-green-color;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
   color: $rw-white-color;
   transition: background-color 0.3s;
   &:hover {
-    background-color: darken($color: $rw-blue-color, $amount: 8);
+    background-color: darken($color: $rw-green-color, $amount: 8);
   }
 }
 
@@ -42,13 +42,22 @@ body {
     background-color: $rw-gray-color;
   }
   &__title {
+    font-family: $page-font;
     color: $rw-black-color;
     margin-top: 10px;
     font-weight: 600;
-    font-size: 1.8em;
+    font-size: 1.6em;
   }
   &__content {
     @extend .container;
     padding: 25px 0;
+  }
+}
+
+.rw-call-to-action {
+  padding: 60px 0;
+  text-align: center;
+  .cta-link {
+    font-size: 22px;
   }
 }

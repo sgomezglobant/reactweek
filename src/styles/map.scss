@@ -1,26 +1,48 @@
-@import "./variables.scss";
+@import './variables.scss';
 
 .rw-map {
-  margin-top: 4rem;
-
-  &__title {
-    position: relative;
-    color: $react-brand-black;
-    text-align: center;
-
-    &::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 50%;
-      background-image: url("./../images/map.svg");
-      background-size: 100%;
-      background-position: center;
-      background-repeat: no-repeat;
-      width: 44px;
-      height: 57px;
-      transform: translate(-50%, -110%);
+  position: relative;
+  height: 450px;
+  &__info {
+    border: 1px solid #707070;
+    padding: 20px;
+    height: 140px;
+    width: 450px;
+    position: absolute;
+    left: calc(50% - 523px);
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: rgba(255, 255, 255, 0.85);
+    &__header {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      &__title {
+        margin-bottom: 0;
+        margin-left: -35px;
+        color: $rw-black-color;
+        font-weight: 600;
+        font-size: 1.6em;
+        font-family: $page-font;
+      }
+    }
+    &__name {
+      margin-top: 5px;
+      margin-bottom: 0;
+      color: $rw-black-color;
+      font-weight: 600;
+      font-size: 1.2em;
+      font-family: $page-font;
+    }
+    &__address {
+      margin-top: 5px;
+      margin-bottom: 0;
+      color: $rw-black-color;
+      font-weight: 400;
+      font-size: 1em;
+      font-family: $page-font;
     }
   }
-
 }

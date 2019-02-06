@@ -23,7 +23,7 @@ const MenuItem = props => {
   } else {
     result = (
       <a
-        className="main-menu__item--border"
+        className="main-menu__item"
         href={props.item.url}
         target={props.item.target}
       >
@@ -38,8 +38,8 @@ MenuItem.propTypes = {
   item: PropTypes.shape({
     image: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
-    url: PropTypes.string.isRequired,
-  }),
+    url: PropTypes.string.isRequired
+  })
 };
 
 export default MenuItem;
