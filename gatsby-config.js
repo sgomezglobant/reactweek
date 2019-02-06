@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `ReactWeek`,
     description: `Developer Week: React`,
-    author: `@globant`,
+    author: `@globant`
   },
   pathPrefix: '/sgomezglobant/reactweek',
   plugins: [
@@ -12,8 +12,8 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
-      },
+        path: `${__dirname}/src/images`
+      }
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -23,14 +23,14 @@ module.exports = {
         name: `react-developer-week`,
         short_name: `reactweek`,
         start_url: `/`,
-        background_color: `#49A8EE`,
-        theme_color: `#49A8EE`,
+        background_color: `#7eb51e`,
+        theme_color: `#7eb51e`,
         display: `minimal-ui`,
-        icon: `src/images/reactweek-logo.png`, // This path is relative to the root of the site.
-      },
-    },
+        icon: `src/images/reactweek-logo.png` // This path is relative to the root of the site.
+      }
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
-  ],
+  ]
 };
