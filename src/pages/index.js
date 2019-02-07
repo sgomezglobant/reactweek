@@ -28,11 +28,11 @@ const IndexPage = () => (
     />
     <Schedule />
     <Speakers />
+    <Organization />
     <Map />
     <div className="rw-call-to-action">
       <RegisterButton />
     </div>
-    <Organization />
     <Volunteers />
   </Layout>
 );
