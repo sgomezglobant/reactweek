@@ -178,11 +178,12 @@ export default {
     {
       id: 1,
       pic: 'KhriZtiaN_Moreno.jpg',
-      name: 'Cristian Moreno',
-      description: 'Pendiente',
-      github: 'Pendiente',
-      facebook: 'Pendiente',
-      twitter: 'Pendiente'
+      name: 'Cristian Moreno Zuluaga',
+      description: 'Es un líder de la comunidad y orador altruista. Trabaja como desarrollador de Fullstack Javascript. Actualmente co-organiza Medellin.js (el mayor grupo de usuarios de JavaScript en Colombia). Le encanta desarrollar cosas, especialmente ideas, dándoles una nueva perspectiva y haciéndolas brillar! Los productos y aplicaciones vienen después de que Él transformó las ideas en código; Él es un apasionado del desarrollo de software y cosas relacionadas.',
+      github: 'https://github.com/khriztianmoreno',
+      linkedin: 'https://www.linkedin.com/in/khriztianmoreno/',
+      facebook: 'https://www.facebook.com/khriztianmoreno',
+      twitter: ' https://twitter.com/khriztianmoreno'
     },
     {
       id: 2,
@@ -223,11 +224,12 @@ export default {
     {
       id: 6,
       pic: 'Carlos_Gonzalez.jpg',
-      name: 'Carlos Gonzalez',
-      description: 'Pendiente',
-      github: 'Pendiente',
-      facebook: 'Pendiente',
-      twitter: 'Pendiente'
+      name: 'Carlos Álvaro González Echeverry',
+      description: 'Carlos es un desarrollador de la ciudad de Pereira, especializado en Python (Backend) y JavaScript (Backend con NodeJS, Frontend), particularmente, ha trabajado en el frontend con la librería React desde 2016, realizando una variedad de proyectos con ella, con diferentes fines (eCommerce, CMS). Así mismo tuvo la posibilidad de dirigir un proyecto para el hotel Zuana, utilizando React Native, actualmente se desempeña como desarrollador Frontend en Team International, aún utilizando React como la herramienta principal en el proyecto en el que se encuentra. También es músico (guitarrista y bajista), así que si quieres hablarle de proyectos musicales no dudes en hacerlo!',
+      github: 'https://github.com/caal-15',
+      linkdin: 'https://www.linkedin.com/in/carlos-gonzalez-078667171/',
+      facebook: 'https://www.facebook.com/CarloS.GonzaleZ.E',
+      twitter: 'https://twitter.com/caal_15'
     },
     {
       id: 7,

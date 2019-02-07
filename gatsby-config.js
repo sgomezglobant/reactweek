@@ -4,7 +4,6 @@ module.exports = {
     description: `Developer Week: React`,
     author: `@globant`
   },
-  pathPrefix: '/sgomezglobant/reactweek',
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
