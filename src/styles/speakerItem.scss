@@ -10,7 +10,7 @@
   padding: 1em;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
-
+  font-family: $page-font;
   @media (min-width: 768px) {
     &:hover {
       .speakers-grid__description {
