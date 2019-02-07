@@ -1,30 +1,25 @@
 import React from 'react';
 
 import data from '../data';
+import { ReactIcon } from './icons';
 import '../styles/volunteers.scss';
 
-
 const Volunteers = () => (
-  <section className="rw-volunteers">
-    <div className="rw-volunteers__title">
-      <i className="icon ion-bonfire"></i>
-      <h3>{data.volunteers.volunteersTitle}</h3>
-    </div>  
-    <div className="rw-volunteers__list">
-      {
-        data.volunteers.volunteersList.map( (person, index) => {
+  <section className="rw-section rw-section--gray">
+    <ReactIcon />
+    <h3 className="rw-section__title">{data.volunteers.volunteersTitle}</h3>
+    <div className="rw-section__content">
+      <div className="rw-volunteers__list">
+        {data.volunteers.volunteersList.map((person, index) => {
           return (
-          <div className="rw-volunteers__item" key={index}>
-            <img src={person.url} alt={person.altImg}/>
-            <b>{person.name}</b>
-          </div>
-
-          )
-        })
-      }
-      
+            <div className="rw-volunteers__item" key={index}>
+              <img src={person.url} alt={person.altImg} />
+              <b>{person.name}</b>
+            </div>
+          );
+        })}
+      </div>
     </div>
-      
   </section>
 );
 

@@ -1,6 +1,63 @@
-@import "./variables.scss";
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600,700");
+@import './variables.scss';
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700');
 
 body {
   font-family: $page-font;
+}
+
+.container {
+  width: 100%;
+  max-width: 1100px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.cta-link {
+  font-family: $page-font;
+  font-size: 0.9em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.6em 2.2em;
+  border-radius: 1em;
+  background-color: $rw-green-color;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $rw-white-color;
+  transition: background-color 0.3s;
+  &:hover {
+    background-color: darken($color: $rw-green-color, $amount: 8);
+  }
+}
+
+.rw-section {
+  padding: 60px 0;
+  background-color: $rw-white-color;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &--gray {
+    background-color: $rw-gray-color;
+  }
+  &__title {
+    font-family: $page-font;
+    color: $rw-black-color;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 1.6em;
+  }
+  &__content {
+    @extend .container;
+    padding: 25px 0;
+  }
+}
+
+.rw-call-to-action {
+  padding: 60px 0;
+  text-align: center;
+  .cta-link {
+    font-size: 22px;
+  }
 }

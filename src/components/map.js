@@ -1,16 +1,23 @@
 import React from 'react';
 
+import { MarkerIcon } from './icons';
 import data from '../data';
-import "./../styles/map.scss";
+import './../styles/map.scss';
 
 const Map = () => (
   <section className="rw-map">
-    <h2 className="rw-map__title">{data.map.title}</h2>
-    <p>{data.map.direction}</p>
+    <div className="rw-map__info">
+      <div className="rw-map__info__header">
+        <MarkerIcon />
+        <h3 className="rw-map__info__header__title">{data.map.title}</h3>
+      </div>
+      <h4 className="rw-map__info__name">{data.map.name}</h4>
+      <h5 className="rw-map__info__address">{data.map.address}</h5>
+    </div>
     <iframe
-      title={data.map.direction}
+      title={data.map.name}
       width="100%"
-      height="350"
+      height="450"
       frameBorder="0"
       scrolling="no"
       marginHeight="0"

@@ -9,7 +9,6 @@ import Speakers from '../components/speakers';
 import Schedule from '../components/schedule';
 import Map from '../components/map';
 import Organization from '../components/organization';
-import Communities from '../components/communities';
 import Volunteers from '../components/volunteers';
 import RegisterButton from '../components/registerButton';
 
@@ -17,13 +16,23 @@ import '../styles/page.scss';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`React`, `React Week`, `Medellin`, `Globant`, `Developer Week`]} />
-    <Speakers />
+    <SEO
+      title="Home"
+      keywords={[
+        `React`,
+        `React Week`,
+        `Medellin`,
+        `Globant`,
+        `Developer Week`
+      ]}
+    />
     <Schedule />
-    <Map />
-    <RegisterButton/>
+    <Speakers />
     <Organization />
-    <Communities />
+    <Map />
+    <div className="rw-call-to-action">
+      <RegisterButton />
+    </div>
     <Volunteers />
   </Layout>
 );
