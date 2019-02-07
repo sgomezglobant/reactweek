@@ -198,10 +198,11 @@ export default {
       id: 3,
       pic: 'Fabio_Cortes.jpg',
       name: 'Fabio Cortes',
-      description: 'Pendiente',
-      github: 'Pendiente',
-      facebook: 'Pendiente',
-      twitter: 'Pendiente'
+      description: 'Fabio es desarrollador web, enfocado en aplicaciones inmersivas. Actualmente se encuentra trabajando freelance en aplicaciones de VR, Arte Generativo y Animación.',
+      github: 'https://github.com/fcor',
+      linkedin: 'https://www.linkedin.com/in/fabiojcortes/',
+      facebook: 'https://www.facebook.com/fabio.cortes',
+      twitter: 'https://twitter.com/fabiojcortes'
     },
     {
       id: 4,
