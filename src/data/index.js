@@ -6,82 +6,71 @@ export default {
         image: 'KhriZtiaN_Moreno.jpg',
         schedule: 'Pendiente',
         title: 'Consumiendo datos GraphQL en React con Apollo Client',
-        description:
-          'Este taller te proporcionará una introducción clara pero completa sobre cómo obtener y actualizar datos remotos desde un endpoint GraphQL, así como la administración del estado local utilizando Apollo Client en combinación con React.',
-        slides: 'https://slides.com/carlosrojas_o/angular-week-2018#/',
-        video: 'https://youtu.be/62EtV33NWmc?t=25m25s'
+        description: 'Este taller te proporcionará una introducción clara pero completa sobre cómo obtener y actualizar datos remotos desde un endpoint GraphQL, así como la administración del estado local utilizando Apollo Client en combinación con React.',
+        slides: '',
+        video: ''
       },
       {
         image: 'Johnny_Iv_Young_Ospino.jpg',
         schedule: 'Pendiente',
-        title:
-          'StoryBook: El entorno de desarrollo de UI que te encantará usar ♥️',
-        description:
-          'Storybook es un ambiente de desarrollo para componentes UI construido usando frameworks JavaScript incluyendo React, Vue, Angular y Svelte. Brinda algunas opciones únicas para visualizar el estado interactivo de tu aplicación, de la mano de un conjunto extensivo de addons.',
-        slides: 'https://slides.com/vanessamarely/angular-week-2018-3#/',
-        video: 'https://youtu.be/62EtV33NWmc?t=45m45s'
+        title: 'StoryBook: El entorno de desarrollo de UI que te encantará usar ♥️',
+        description: 'Storybook es un ambiente de desarrollo para componentes UI construido usando frameworks JavaScript incluyendo React, Vue, Angular y Svelte. Brinda algunas opciones únicas para visualizar el estado interactivo de tu aplicación, de la mano de un conjunto extensivo de addons.',
+        slides: '',
+        video: ''
       },
       {
         image: 'Fabio_Cortes.jpg',
         schedule: 'Pendiente',
         title: 'Explorando la transición de React VR a React 360',
-        description:
-          'En esta charla hablaremos un poco de la historia de React 360, antes conocida como React VR y de como podemos crear increíbles experiencias interactivas en nuestro navegador apoyados en tecnologias como WebGL y WebVR con el ya conocido poder de React.',
-        slides:
-          'https://slides.com/juantobongt/reactive-forms-y-otras-delicias#/',
-        repository: 'https://github.com/juantobongt/ng-form-examples',
-        video: 'https://youtu.be/mPMIFaVHLlY?t=11m24s'
+        description: 'En esta charla hablaremos un poco de la historia de React 360, antes conocida como React VR y de como podemos crear increíbles experiencias interactivas en nuestro navegador apoyados en tecnologias como WebGL y WebVR con el ya conocido poder de React.',
+        slides: '',
+        repository: '',
+        video: ''
       },
       {
         image: 'Oscar_Andres_Granada.jpg',
         schedule: 'Pendiente',
         title: 'React para desarrolladores JavaScript',
-        description:
-          'React es una de las librerías mas famosas en la web actual, sin embargo, mucha gente ignora que toda la magia de React funciona gracias a las increíbles características de ECMAScript. Esta charla es para mostrar como podemos usar ES2015+ para crear mejores componentes React.',
-        slides: 'https://slides.com/carlosangulo/angular-week-2018',
-        repository: 'https://github.com/CarlosAngulo/AnimationBuilder-basics',
-        video: 'https://youtu.be/mPMIFaVHLlY?t=1h16m23s'
+        description: 'React es una de las librerías mas famosas en la web actual, sin embargo, mucha gente ignora que toda la magia de React funciona gracias a las increíbles características de ECMAScript. Esta charla es para mostrar como podemos usar ES2015+ para crear mejores componentes React.',
+        slides: '',
+        repository: '',
+        video: ''
       },
       {
         image: 'Roberto_Rojas_Fernandez.jpg',
         schedule: 'Pendiente',
         title: 'Integrando React con Azure Cognitive Services',
-        description:
-          'Una visión general de como usar diferentes servicios de Azure Cognitive Services en una aplicación hecha con React.',
-        slides: 'https://slides.com/carlosangulo/angular-week-2018',
-        repository: 'https://github.com/CarlosAngulo/AnimationBuilder-basics',
-        video: 'https://youtu.be/mPMIFaVHLlY?t=1h16m23s'
+        description: 'Una visión general de como usar diferentes servicios de Azure Cognitive Services en una aplicación hecha con React.',
+        slides: '',
+        repository: '',
+        video: ''
       },
       {
         image: 'Carlos_Gonzalez.jpg',
         schedule: 'Pendiente',
         title: 'Creando un pequeño manejador de estados usando la API Context',
-        description:
-          'En esta charla veremos como crear un pequeño manejador de estado usando la API Context para conocer a profundidad su funcionamiento interno y afianzar algunos conceptos básicos como el flujo de datos en una sola vía de React y fundamentos de programación funcional en JavaScript.',
-        slides: 'https://slides.com/carlosangulo/angular-week-2018',
-        repository: 'https://github.com/CarlosAngulo/AnimationBuilder-basics',
-        video: 'https://youtu.be/mPMIFaVHLlY?t=1h16m23s'
+        description: 'En esta charla veremos como crear un pequeño manejador de estado usando la API Context para conocer a profundidad su funcionamiento interno y afianzar algunos conceptos básicos como el flujo de datos en una sola vía de React y fundamentos de programación funcional en JavaScript.',
+        slides: '',
+        repository: '',
+        video: ''
       },
       {
         image: 'Alejandro_Garcia_Serna.jpg',
         schedule: 'Pendiente',
         title: 'Simplifica el manejo de tu estado con MobX',
-        description:
-          'Manejar el estado de nuestras aplicaciones puede requerir de mucho boilerplate, MobX nos permite manejar modelos de datos complejos de una manera simple y eficiente.',
-        slides: 'https://slides.com/carlosangulo/angular-week-2018',
-        repository: 'https://github.com/CarlosAngulo/AnimationBuilder-basics',
-        video: 'https://youtu.be/mPMIFaVHLlY?t=1h16m23s'
+        description: 'Manejar el estado de nuestras aplicaciones puede requerir de mucho boilerplate, MobX nos permite manejar modelos de datos complejos de una manera simple y eficiente.',
+        slides: '',
+        repository: '',
+        video: ''
       },
       {
         image: 'Alejandro_Nanez_Ortiz.jpg',
         schedule: 'Pendiente',
-        title:
-          'Deja de repetir código en tus aplicaciones. Monorepos al rescate!',
-        description:
-          'Hablemos de como puedes aprovechar el poder de Monorepos para empezar a compartir código entre tus aplicaciones JavaScript con facilidad, dejando de manejar diferentes repositorios con procesos de compilación y despliegue. Los Monorepos son la solución!',
-        slides: 'https://slides.com/carlosangulo/angular-week-2018',
-        repository: 'https://github.com/CarlosAngulo/AnimationBuilder-basics',
-        video: 'https://youtu.be/mPMIFaVHLlY?t=1h16m23s'
+        title: 'Deja de repetir código en tus aplicaciones. Monorepos al rescate!',
+        description: 'Hablemos de como puedes aprovechar el poder de Monorepos para empezar a compartir código entre tus aplicaciones JavaScript con facilidad, dejando de manejar diferentes repositorios con procesos de compilación y despliegue. Los Monorepos son la solución!',
+        slides: '',
+        repository: '',
+        video: ''
       },
       {
         image: 'Santiago_Galvis_Riveros.jpg',
@@ -89,88 +78,81 @@ export default {
         title: 'Fundamentos de Angular & React',
         description:
           'Principios y fundamentos básicos para integrar Angular y React.',
-        slides: 'https://slides.com/carlosangulo/angular-week-2018',
-        repository: 'https://github.com/CarlosAngulo/AnimationBuilder-basics',
-        video: 'https://youtu.be/mPMIFaVHLlY?t=1h16m23s'
+        slides: '',
+        repository: '',
+        video: ''
       },
       {
         image: 'Carlos_Gonzalez.jpg',
         schedule: 'Pendiente',
         title: 'React Native, Desarrolla Aplicaciones Nativas usando JS',
-        description:
-          'En esta charla los asistentes aprenderán los conceptos básicos de React Native, su diferencia con otras plataformas, y todas las bases necesarias para aprender a desarrollar aplicativos móviles usando React Native.',
-        slides: 'https://slides.com/carlosangulo/angular-week-2018',
-        repository: 'https://github.com/CarlosAngulo/AnimationBuilder-basics',
-        video: 'https://youtu.be/mPMIFaVHLlY?t=1h16m23s'
+        description: 'En esta charla los asistentes aprenderán los conceptos básicos de React Native, su diferencia con otras plataformas, y todas las bases necesarias para aprender a desarrollar aplicativos móviles usando React Native.',
+        slides: '',
+        repository: '',
+        video: ''
       },
       {
         image: 'Jonathan_Alvarez_Gonzalez.jpg',
         schedule: 'Pendiente',
         title: 'React Hooks + React Context. ¿No más Redux?',
-        description:
-          'Veamos cómo utilizar la nueva  y no oficial API de Hooks, junto con Context para recrear una arquitectura muy similar a la que nos ofrece Redux.',
-        slides: 'https://slides.com/carlosangulo/angular-week-2018',
-        repository: 'https://github.com/CarlosAngulo/AnimationBuilder-basics',
-        video: 'https://youtu.be/mPMIFaVHLlY?t=1h16m23s'
+        description: 'Veamos cómo utilizar la nueva  y no oficial API de Hooks, junto con Context para recrear una arquitectura muy similar a la que nos ofrece Redux.',
+        slides: '',
+        repository: '',
+        video: ''
       },
       {
         image: 'Jonathan_Alvarez_Gonzalez.jpg',
         schedule: 'Pendiente',
         title: 'Tal vez no necesites Redux',
-        description:
-          'Razones, alternativas y valor actual de Redux en aplicaciones modernas con React.',
-        slides: 'https://slides.com/carlosangulo/angular-week-2018',
-        repository: 'https://github.com/CarlosAngulo/AnimationBuilder-basics',
-        video: 'https://youtu.be/mPMIFaVHLlY?t=1h16m23s'
+        description: 'Razones, alternativas y valor actual de Redux en aplicaciones modernas con React.',
+        slides: '',
+        repository: '',
+        video: ''
       },
       {
         image: 'Ely_Alvarado.jpg',
         schedule: 'Pendiente',
         title: 'Side-effects en Redux con RxJS y redux-observable',
-        description:
-          'RxJS es la librería más popular para programación reactiva en Javascript. En esta charla explicaré como podemos integrarla usando redux-observable en una aplicación React, y los patrones más comunes de uso de observables en el manejo de llamadas a red, navegación y otros.',
-        slides: 'https://slides.com/carlosangulo/angular-week-2018',
-        repository: 'https://github.com/CarlosAngulo/AnimationBuilder-basics',
-        video: 'https://youtu.be/mPMIFaVHLlY?t=1h16m23s'
+        description: 'RxJS es la librería más popular para programación reactiva en Javascript. En esta charla explicaré como podemos integrarla usando redux-observable en una aplicación React, y los patrones más comunes de uso de observables en el manejo de llamadas a red, navegación y otros.',
+        slides: '',
+        repository: '',
+        video: ''
       },
       {
         image: 'Alex_Ramirez.jpg',
         schedule: 'Pendiente',
         title: 'Internacionalización de aplicaciones React',
-        description:
-          'En la actualidad es necesario que nuestras aplicaciones funcionen en un ámbito global, gente de diferentes culturas, idiomas y monedas van a usar nuestras aplicaciones y debemos estar preparados.',
-        slides: 'https://slides.com/carlosangulo/angular-week-2018',
-        repository: 'https://github.com/CarlosAngulo/AnimationBuilder-basics',
-        video: 'https://youtu.be/mPMIFaVHLlY?t=1h16m23s'
+        description: 'En la actualidad es necesario que nuestras aplicaciones funcionen en un ámbito global, gente de diferentes culturas, idiomas y monedas van a usar nuestras aplicaciones y debemos estar preparados.',
+        slides: '',
+        repository: '',
+        video: ''
       },
       {
         image: 'Elsa_Katherine_Olivares_Calderon.jpg',
         schedule: 'Pendiente',
         title: 'React Context vs Mobx',
-        description:
-          'En esta charla veremos la diferencia entre React Context y Mobx, una visión general de cada uno y en qué casos se pueden utilizar.',
-        slides: 'https://slides.com/carlosangulo/angular-week-2018',
-        repository: 'https://github.com/CarlosAngulo/AnimationBuilder-basics',
-        video: 'https://youtu.be/mPMIFaVHLlY?t=1h16m23s'
+        description: 'En esta charla veremos la diferencia entre React Context y Mobx, una visión general de cada uno y en qué casos se pueden utilizar.',
+        slides: '',
+        repository: '',
+        video: ''
       },
       {
         image: 'Mauricio_Arroyave.jpg',
         schedule: 'Pendiente',
         title: 'Navegación a fondo para React Native',
-        description:
-          'En esta charla hablaremos de navegación en React Native y de como podemos enlazar diferentes tipo de navegación como navegación de cajón, en pila o por tabs.',
-        slides: 'https://slides.com/carlosangulo/angular-week-2018',
-        repository: 'https://github.com/CarlosAngulo/AnimationBuilder-basics',
-        video: 'https://youtu.be/mPMIFaVHLlY?t=1h16m23s'
+        description: 'En esta charla hablaremos de navegación en React Native y de como podemos enlazar diferentes tipo de navegación como navegación de cajón, en pila o por tabs.',
+        slides: '',
+        repository: '',
+        video: ''
       },
       {
         image: 'Johann_Paul_Echavarria_Zapata.jpg',
         schedule: 'Pendiente',
         title: 'Rendimiento & React',
         description: 'Experimentos de performance con React.',
-        slides: 'https://slides.com/carlosangulo/angular-week-2018',
-        repository: 'https://github.com/CarlosAngulo/AnimationBuilder-basics',
-        video: 'https://youtu.be/mPMIFaVHLlY?t=1h16m23s'
+        slides: '',
+        repository: '',
+        video: ''
       }
     ]
   },
@@ -189,10 +171,7 @@ export default {
       id: 2,
       pic: 'Johnny_Iv_Young_Ospino.jpg',
       name: 'Johnny Iv Young Ospino',
-      description: 'Pendiente',
-      github: 'Pendiente',
-      facebook: 'Pendiente',
-      twitter: 'Pendiente'
+      description: 'Web UI developer'
     },
     {
       id: 3,
@@ -208,7 +187,7 @@ export default {
       id: 4,
       pic: 'Oscar_Andres_Granada.jpg',
       name: 'Oscar Andres Granada',
-      description: 'Pendiente',
+      description: 'Globant, Web UI Developer',
       github: 'Pendiente',
       facebook: 'Pendiente',
       twitter: 'Pendiente'
@@ -217,10 +196,7 @@ export default {
       id: 5,
       pic: 'Roberto_Rojas_Fernandez.jpg',
       name: 'Roberto Rojas Fernandez',
-      description: 'Pendiente',
-      github: 'Pendiente',
-      facebook: 'Pendiente',
-      twitter: 'Pendiente'
+      description: 'Fullstack Sharepoint Developer - Globant',
     },
     {
       id: 6,
@@ -236,25 +212,19 @@ export default {
       id: 7,
       pic: 'Alejandro_Garcia_Serna.jpg',
       name: 'Alejandro Garcia Serna',
-      description: 'Pendiente',
-      github: 'Pendiente',
-      facebook: 'Pendiente',
-      twitter: 'Pendiente'
+      description: 'Desarrollador frontend en EDteam'
     },
     {
       id: 8,
       pic: 'Alejandro_Nanez_Ortiz.jpg',
       name: 'Alejandro Ñáñez Ortiz',
-      description: 'Pendiente',
-      github: 'Pendiente',
-      facebook: 'Pendiente',
-      twitter: 'Pendiente'
+      description: 'Frontend Engineer @ Zapier',
     },
     {
       id: 9,
       pic: 'Santiago_Galvis_Riveros.jpg',
       name: 'Santiago Galvis Riveros',
-      description: 'Pendiente',
+      description: 'Web UI Architect at @globant',
       github: 'Pendiente',
       facebook: 'Pendiente',
       twitter: 'Pendiente'
@@ -263,55 +233,48 @@ export default {
       id: 10,
       pic: 'Jonathan_Alvarez_Gonzalez.jpg',
       name: 'Jonathan Alvarez Gonzalez',
-      description: 'Pendiente',
-      github: 'Pendiente',
-      facebook: 'Pendiente',
-      twitter: 'Pendiente'
+      description: 'Desarrollador JavaScript. Sabe más de React que lo que sabe de su vecindario. Senior Frontend Engineer en Team International  💚.',
+      github: 'http://github.com/jonalvarezz/',
+      linkedin: 'https://www.linkedin.com/in/jonalvarezz/',
+      twitter: 'http://twitter.com/jonalvarezz'
     },
     {
       id: 11,
       pic: 'Ely_Alvarado.jpg',
       name: 'Ely Alvarado',
-      description: 'Pendiente',
-      github: 'Pendiente',
-      facebook: 'Pendiente',
-      twitter: 'Pendiente'
+      description: 'Ely ha estado involucrado en el mundo de la tecnología desde hace un poco mas de 20 años, actualmente es el CTO y Lider de Desarrollo de Happy the App, una startup de soporte emocional bajo demanda.',
+      github: 'https://github.com/elyalvarado',
+      linkedin: 'https://www.linkedin.com/in/elyalvarado/',
+      facebook: 'https://www.facebook.com/ely.j.alvarado',
+      twitter: 'https://twitter.com/elyalvarado'
     },
     {
       id: 12,
       pic: 'Alex_Ramirez.jpg',
       name: 'Alex Ramirez',
-      description: 'Pendiente',
-      github: 'Pendiente',
-      facebook: 'Pendiente',
-      twitter: 'Pendiente'
+      description: 'Software Developer & Blockchain Padawan. co-organizer of @MedellinJS',
     },
     {
       id: 13,
       pic: 'Elsa_Katherine_Olivares_Calderon.jpg',
       name: 'Elsa Katherine Olivares Calderon',
-      description: 'Pendiente',
-      github: 'Pendiente',
-      facebook: 'Pendiente',
-      twitter: 'Pendiente'
+      description: 'Elsa es desarrolladora web, con 5 años de experiencia en desarrollo front-end, desde hace 2 años ha tenido la oportunidad de trabajar con ReactJS en proyectos para diferentes clientes.',
+      facebook: 'https://www.facebook.com/elsa.olivares.9',
+      twitter: 'https://twitter.com/ekoc03'
     },
     {
       id: 14,
       pic: 'Mauricio_Arroyave.jpg',
       name: 'Mauricio Arroyave',
-      description: 'Pendiente',
-      github: 'Pendiente',
-      facebook: 'Pendiente',
-      twitter: 'Pendiente'
+      description: 'Web UI Developer in globant',
     },
     {
       id: 15,
       pic: 'Johann_Paul_Echavarria_Zapata.jpg',
       name: 'Johann Paul Echavarría Zapata',
-      description: 'Pendiente',
-      github: 'Pendiente',
-      facebook: 'Pendiente',
-      twitter: 'Pendiente'
+      description: 'Johann es un desarrollador de software con más de 14 años trabajando en el medio, es también magíster en ingeniería de software y maestro internacional de ajedrez. ',
+      linkedin: 'https://www.linkedin.com/in/johann-paul-echavarr%C3%ADa-zapata-3a564023/',
+      twitter: 'https://twitter.com/abrupto'
     }
   ],
   organization: {
