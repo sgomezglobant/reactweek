@@ -3,33 +3,17 @@ export default {
     title: 'Agenda',
     talks: [
       {
-        image: 'KhriZtiaN_Moreno.jpg',
-        schedule: 'Pendiente',
-        title: 'Consumiendo datos GraphQL en React con Apollo Client',
-        description: 'Este taller te proporcionará una introducción clara pero completa sobre cómo obtener y actualizar datos remotos desde un endpoint GraphQL, así como la administración del estado local utilizando Apollo Client en combinación con React.',
-        slides: '',
-        video: ''
-      },
-      {
-        image: 'Johnny_Iv_Young_Ospino.jpg',
-        schedule: 'Pendiente',
-        title: 'StoryBook: El entorno de desarrollo de UI que te encantará usar ♥️',
-        description: 'Storybook es un ambiente de desarrollo para componentes UI construido usando frameworks JavaScript incluyendo React, Vue, Angular y Svelte. Brinda algunas opciones únicas para visualizar el estado interactivo de tu aplicación, de la mano de un conjunto extensivo de addons.',
-        slides: '',
-        video: ''
-      },
-      {
-        image: 'Fabio_Cortes.jpg',
-        schedule: 'Pendiente',
-        title: 'Explorando la transición de React VR a React 360',
-        description: 'En esta charla hablaremos un poco de la historia de React 360, antes conocida como React VR y de como podemos crear increíbles experiencias interactivas en nuestro navegador apoyados en tecnologias como WebGL y WebVR con el ya conocido poder de React.',
+        image: 'Jonathan_Alvarez_Gonzalez.jpg',
+        schedule: '5 de Marzo, 6:00PM',
+        title: 'React Hooks + React Context. ¿No más Redux?',
+        description: 'Veamos cómo utilizar la nueva  y no oficial API de Hooks, junto con Context para recrear una arquitectura muy similar a la que nos ofrece Redux.',
         slides: '',
         repository: '',
         video: ''
       },
       {
         image: 'Oscar_Andres_Granada.jpg',
-        schedule: 'Pendiente',
+        schedule: '5 de Marzo, 6:30PM',
         title: 'React para desarrolladores JavaScript',
         description: 'React es una de las librerías mas famosas en la web actual, sin embargo, mucha gente ignora que toda la magia de React funciona gracias a las increíbles características de ECMAScript. Esta charla es para mostrar como podemos usar ES2015+ para crear mejores componentes React.',
         slides: '',
@@ -37,44 +21,43 @@ export default {
         video: ''
       },
       {
-        image: 'Roberto_Rojas_Fernandez.jpg',
-        schedule: 'Pendiente',
-        title: 'Integrando React con Azure Cognitive Services',
-        description: 'Una visión general de como usar diferentes servicios de Azure Cognitive Services en una aplicación hecha con React.',
+        image: 'Johnny_Iv_Young_Ospino.jpg',
+        schedule: '5 de Marzo, 7:00PM',
+        title: 'StoryBook: El entorno de desarrollo de UI que te encantará usar ♥️',
+        description: 'Storybook es un ambiente de desarrollo para componentes UI construido usando frameworks JavaScript incluyendo React, Vue, Angular y Svelte. Brinda algunas opciones únicas para visualizar el estado interactivo de tu aplicación, de la mano de un conjunto extensivo de addons.',
         slides: '',
-        repository: '',
         video: ''
       },
       {
         image: 'Carlos_Gonzalez.jpg',
-        schedule: 'Pendiente',
-        title: 'Creando un pequeño manejador de estados usando la API Context',
-        description: 'En esta charla veremos como crear un pequeño manejador de estado usando la API Context para conocer a profundidad su funcionamiento interno y afianzar algunos conceptos básicos como el flujo de datos en una sola vía de React y fundamentos de programación funcional en JavaScript.',
+        schedule: '5 de Marzo, 7:30PM',
+        title: 'React Native, Desarrolla Aplicaciones Nativas usando JS',
+        description: 'En esta charla los asistentes aprenderán los conceptos básicos de React Native, su diferencia con otras plataformas, y todas las bases necesarias para aprender a desarrollar aplicativos móviles usando React Native.',
         slides: '',
         repository: '',
         video: ''
       },
       {
-        image: 'Alejandro_Garcia_Serna.jpg',
-        schedule: 'Pendiente',
-        title: 'Simplifica el manejo de tu estado con MobX',
-        description: 'Manejar el estado de nuestras aplicaciones puede requerir de mucho boilerplate, MobX nos permite manejar modelos de datos complejos de una manera simple y eficiente.',
+        image: 'Mauricio_Arroyave.jpg',
+        schedule: '6 de Marzo, 6:00PM',
+        title: 'Navegación a fondo para React Native',
+        description: 'En esta charla hablaremos de navegación en React Native y de como podemos enlazar diferentes tipo de navegación como navegación de cajón, en pila o por tabs.',
         slides: '',
         repository: '',
         video: ''
       },
       {
-        image: 'Alejandro_Nanez_Ortiz.jpg',
-        schedule: 'Pendiente',
-        title: 'Deja de repetir código en tus aplicaciones. Monorepos al rescate!',
-        description: 'Hablemos de como puedes aprovechar el poder de Monorepos para empezar a compartir código entre tus aplicaciones JavaScript con facilidad, dejando de manejar diferentes repositorios con procesos de compilación y despliegue. Los Monorepos son la solución!',
+        image: 'Elsa_Katherine_Olivares_Calderon.jpg',
+        schedule: '6 de Marzo, 6:30PM',
+        title: 'React Context vs Mobx',
+        description: 'En esta charla veremos la diferencia entre React Context y Mobx, una visión general de cada uno y en qué casos se pueden utilizar.',
         slides: '',
         repository: '',
         video: ''
       },
       {
         image: 'Santiago_Galvis_Riveros.jpg',
-        schedule: 'Pendiente',
+        schedule: '6 de Marzo, 7:00PM',
         title: 'Fundamentos de Angular & React',
         description:
           'Principios y fundamentos básicos para integrar Angular y React.',
@@ -83,35 +66,17 @@ export default {
         video: ''
       },
       {
-        image: 'Carlos_Gonzalez.jpg',
-        schedule: 'Pendiente',
-        title: 'React Native, Desarrolla Aplicaciones Nativas usando JS',
-        description: 'En esta charla los asistentes aprenderán los conceptos básicos de React Native, su diferencia con otras plataformas, y todas las bases necesarias para aprender a desarrollar aplicativos móviles usando React Native.',
-        slides: '',
-        repository: '',
-        video: ''
-      },
-      {
-        image: 'Jonathan_Alvarez_Gonzalez.jpg',
-        schedule: 'Pendiente',
-        title: 'React Hooks + React Context. ¿No más Redux?',
-        description: 'Veamos cómo utilizar la nueva  y no oficial API de Hooks, junto con Context para recrear una arquitectura muy similar a la que nos ofrece Redux.',
-        slides: '',
-        repository: '',
-        video: ''
-      },
-      {
-        image: 'Jonathan_Alvarez_Gonzalez.jpg',
-        schedule: 'Pendiente',
-        title: 'Tal vez no necesites Redux',
-        description: 'Razones, alternativas y valor actual de Redux en aplicaciones modernas con React.',
+        image: 'Roberto_Rojas_Fernandez.jpg',
+        schedule: '6 de Marzo, 7:30PM',
+        title: 'Integrando React con Azure Cognitive Services',
+        description: 'Una visión general de como usar diferentes servicios de Azure Cognitive Services en una aplicación hecha con React.',
         slides: '',
         repository: '',
         video: ''
       },
       {
         image: 'Ely_Alvarado.jpg',
-        schedule: 'Pendiente',
+        schedule: '7 de Marzo, 6:15PM',
         title: 'Side-effects en Redux con RxJS y redux-observable',
         description: 'RxJS es la librería más popular para programación reactiva en Javascript. En esta charla explicaré como podemos integrarla usando redux-observable en una aplicación React, y los patrones más comunes de uso de observables en el manejo de llamadas a red, navegación y otros.',
         slides: '',
@@ -120,7 +85,7 @@ export default {
       },
       {
         image: 'Alex_Ramirez.jpg',
-        schedule: 'Pendiente',
+        schedule: '7 de Marzo, 6:45PM',
         title: 'Internacionalización de aplicaciones React',
         description: 'En la actualidad es necesario que nuestras aplicaciones funcionen en un ámbito global, gente de diferentes culturas, idiomas y monedas van a usar nuestras aplicaciones y debemos estar preparados.',
         slides: '',
@@ -128,30 +93,56 @@ export default {
         video: ''
       },
       {
-        image: 'Elsa_Katherine_Olivares_Calderon.jpg',
-        schedule: 'Pendiente',
-        title: 'React Context vs Mobx',
-        description: 'En esta charla veremos la diferencia entre React Context y Mobx, una visión general de cada uno y en qué casos se pueden utilizar.',
-        slides: '',
-        repository: '',
-        video: ''
-      },
-      {
-        image: 'Mauricio_Arroyave.jpg',
-        schedule: 'Pendiente',
-        title: 'Navegación a fondo para React Native',
-        description: 'En esta charla hablaremos de navegación en React Native y de como podemos enlazar diferentes tipo de navegación como navegación de cajón, en pila o por tabs.',
-        slides: '',
-        repository: '',
-        video: ''
-      },
-      {
         image: 'Johann_Paul_Echavarria_Zapata.jpg',
-        schedule: 'Pendiente',
+        schedule: '7 de Marzo, 7:15PM',
         title: 'Rendimiento & React',
         description: 'Experimentos de performance con React.',
         slides: '',
         repository: '',
+        video: ''
+      },
+      {
+        image: 'Fabio_Cortes.jpg',
+        schedule: '8 de Marzo, 6:00PM',
+        title: 'Explorando la transición de React VR a React 360',
+        description: 'En esta charla hablaremos un poco de la historia de React 360, antes conocida como React VR y de como podemos crear increíbles experiencias interactivas en nuestro navegador apoyados en tecnologias como WebGL y WebVR con el ya conocido poder de React.',
+        slides: '',
+        repository: '',
+        video: ''
+      },
+      {
+        image: 'Alejandro_Nanez_Ortiz.jpg',
+        schedule: '8 de Marzo, 6:30PM',
+        title: 'Deja de repetir código en tus aplicaciones. Monorepos al rescate!',
+        description: 'Hablemos de como puedes aprovechar el poder de Monorepos para empezar a compartir código entre tus aplicaciones JavaScript con facilidad, dejando de manejar diferentes repositorios con procesos de compilación y despliegue. Los Monorepos son la solución!',
+        slides: '',
+        repository: '',
+        video: ''
+      },
+      {
+        image: 'Carlos_Gonzalez.jpg',
+        schedule: '8 de Marzo, 7:00PM',
+        title: 'Creando un pequeño manejador de estados usando la API Context',
+        description: 'En esta charla veremos como crear un pequeño manejador de estado usando la API Context para conocer a profundidad su funcionamiento interno y afianzar algunos conceptos básicos como el flujo de datos en una sola vía de React y fundamentos de programación funcional en JavaScript.',
+        slides: '',
+        repository: '',
+        video: ''
+      },
+      {
+        image: 'Alejandro_Garcia_Serna.jpg',
+        schedule: '8 de Marzo, 7:30PM',
+        title: 'Simplifica el manejo de tu estado con MobX',
+        description: 'Manejar el estado de nuestras aplicaciones puede requerir de mucho boilerplate, MobX nos permite manejar modelos de datos complejos de una manera simple y eficiente.',
+        slides: '',
+        repository: '',
+        video: ''
+      },
+      {
+        image: 'KhriZtiaN_Moreno.jpg',
+        schedule: '9 de Marzo, 8:30AM',
+        title: 'Consumiendo datos GraphQL en React con Apollo Client',
+        description: 'Este taller te proporcionará una introducción clara pero completa sobre cómo obtener y actualizar datos remotos desde un endpoint GraphQL, así como la administración del estado local utilizando Apollo Client en combinación con React.',
+        slides: '',
         video: ''
       }
     ]
@@ -196,7 +187,9 @@ export default {
       id: 5,
       pic: 'Roberto_Rojas_Fernandez.jpg',
       name: 'Roberto Rojas Fernandez',
-      description: 'Fullstack Sharepoint Developer - Globant',
+      description: 'Roberto es un desarrollador con 7 años de experiencia trabajando con .NET y JS, Actualmente trabaja en globant como Fullstack sharepoint developer , con React JS y .NET. Es apasionado por aprender cosas nuevas y le encantan los retos',
+      github: 'http://github.com/rrojasf1993',
+      linkedin: 'https://www.linkedin.com/in/roberto-rojas-fernandez-24a20840/'
     },
     {
       id: 6,
