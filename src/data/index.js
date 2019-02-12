@@ -152,7 +152,7 @@ export default {
       id: 1,
       pic: 'KhriZtiaN_Moreno.jpg',
       name: 'Cristian Moreno Zuluaga',
-      description: 'Es un líder de la comunidad, orador altruista y trabaja como desarrollador Fullstack Javascript. Actualmente co-organiza Medellin.js. Le encanta desarrollar cosas, especialmente ideas, dándoles una nueva perspectiva y haciéndolas brillar!',
+      description: 'Es un líder de la comunidad, orador altruista y trabaja como desarrollador Fullstack Javascript. Actualmente co-organiza Medellin.js. Le encanta desarrollar especialmente ideas, dándoles una nueva perspectiva y haciéndolas brillar!',
       github: 'https://github.com/khriztianmoreno',
       linkedin: 'https://www.linkedin.com/in/khriztianmoreno/',
       facebook: 'https://www.facebook.com/khriztianmoreno',
