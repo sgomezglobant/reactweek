@@ -259,7 +259,7 @@ export default {
       id: 14,
       pic: 'Mauricio_Arroyave.jpg',
       name: 'Mauricio Arroyave',
-      description: 'Web UI Developer in globant',
+      description: 'Mauricio es desarrollador frontend con 5 años de experiencia, actualmente trabaja en react native, es apasionao por la música y esta incursionando en la generación de música con algoritmia.',
     },
     {
       id: 15,
