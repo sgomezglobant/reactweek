@@ -178,10 +178,11 @@ export default {
       id: 4,
       pic: 'Oscar_Andres_Granada.jpg',
       name: 'Oscar Andres Granada',
-      description: 'Globant, Web UI Developer',
-      github: 'Pendiente',
-      facebook: 'Pendiente',
-      twitter: 'Pendiente'
+      description: 'Soy un Ingeniero de Sistemás con más de 10 años de experiencia en la industria del software, de los cuales los 5 ultimos han sido dedicados a desarrollo Front-End y tecnologías afines, mis hobbies son programar y jugar con mis perros.',
+      github: 'https://github.com/ogranada',
+      linkedin: 'https://www.linkedin.com/in/ogranada',
+      facebook: 'https://www.facebook.com/oagranada',
+      twitter: 'https://twitter.com/oagranada'
     },
     {
       id: 5,
@@ -260,6 +261,9 @@ export default {
       pic: 'Mauricio_Arroyave.jpg',
       name: 'Mauricio Arroyave',
       description: 'Mauricio es desarrollador frontend con 5 años de experiencia, actualmente trabaja en react native, es apasionao por la música y esta incursionando en la generación de música con algoritmia.',
+      linkedin: 'https://www.linkedin.com/in/maoapp/',
+      facebook: 'https://www.facebook.com/maoarroya',
+      github: 'https://github.com/maoapp'
     },
     {
       id: 15,
