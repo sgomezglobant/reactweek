@@ -5,7 +5,7 @@ const RegisterButton = ({ to }) => (
   <a
     target="_blank"
     rel="noopener noreferrer"
-    href="https://www.eventbrite.com/e/react-week-medellin-2019-tickets-55239292210#tickets"
+    href="https://www.eventbrite.com/e/development-week-react-tickets-55975911458"
     className="cta-link"
   >
     Registrate aquí
