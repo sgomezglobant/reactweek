@@ -223,6 +223,7 @@ export default {
       name: 'Alejandro Ñáñez Ortiz',
       description: 'Frontend Engineer @ Zapier. Contribuidor OSS, Co-Organizador de @reactMedellin. Interesado en buenas prácticas, web performance y progressive web apps.',
       github: 'https://github.com/alejandronanez',
+      twitter: 'https://twitter.com/alejandronanez',
       linkedin: 'https://co.linkedin.com/in/alejandronanez/'
     },
     {
