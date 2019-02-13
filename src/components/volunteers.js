@@ -5,7 +5,7 @@ import { ReactIcon } from './icons';
 import '../styles/volunteers.scss';
 
 const Volunteers = () => (
-  <section className="rw-section rw-section--gray">
+  <section className="rw-section rw-section--black">
     <ReactIcon />
     <h3 className="rw-section__title">{data.volunteers.volunteersTitle}</h3>
     <div className="rw-section__content">
@@ -14,7 +14,7 @@ const Volunteers = () => (
           return (
             <div className="rw-volunteers__item" key={index}>
               <img src={person.url} alt={person.altImg} />
-              <b>{person.name}</b>
+              <span>{person.name}</span>
             </div>
           );
         })}

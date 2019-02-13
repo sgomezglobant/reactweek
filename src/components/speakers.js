@@ -7,7 +7,7 @@ import './../styles/speakers.scss';
 // Speakers component
 
 const Speakers = () => (
-  <section className="rw-section rw-section--gray">
+  <section className="rw-section rw-section--black">
     <span className="rw-section__icon">
       <MicIcon />
     </span>

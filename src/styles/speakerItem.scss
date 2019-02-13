@@ -7,7 +7,7 @@
   overflow: hidden;
   border: 1px solid #707070;
   background: $rw-white-color;
-  padding: 1em;
+  // padding: 1em;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
   font-family: $page-font;
@@ -37,14 +37,16 @@
   font-size: 0.8em;
   color: $rw-black-color;
   font-weight: bold;
+  position: absolute;
 }
 
 .speakers-grid__img {
   object-fit: cover;
-  width: 185px;
-  height: 185px;
+  width: 100%;
+  height: 100%;
   margin-bottom: 0;
   border-radius: 2px;
+  filter: grayscale(100%);
 }
 
 .speakers-grid__description {
