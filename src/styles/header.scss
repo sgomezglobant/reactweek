@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 45px; // Para ajustar al alto del menu fixed.
+  padding-top: 90px; // Para ajustar al alto del menu fixed.
   width: 100%;
   height: 80vh;
   background: linear-gradient(
@@ -19,7 +19,6 @@
 
   &__logo {
     width: 300px;
-    margin-top: 20px;
   }
 
   &__title,
@@ -36,9 +35,5 @@
 
   &__subtitle {
     font-size: 1.6em;
-  }
-
-  &__link {
-    margin-top: 20px;
   }
 }
