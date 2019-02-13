@@ -76,7 +76,7 @@ export default {
       },
       {
         image: 'Ely_Alvarado.jpg',
-        schedule: '7 de Marzo, 6:15PM',
+        schedule: '7 de Marzo, 6:00PM',
         title: 'Side-effects en Redux con RxJS y redux-observable',
         description: 'RxJS es la librería más popular para programación reactiva en Javascript. En esta charla explicaré como podemos integrarla usando redux-observable en una aplicación React, y los patrones más comunes de uso de observables en el manejo de llamadas a red, navegación y otros.',
         slides: '',
@@ -85,7 +85,7 @@ export default {
       },
       {
         image: 'Alex_Ramirez.jpg',
-        schedule: '7 de Marzo, 6:45PM',
+        schedule: '7 de Marzo, 6:30PM',
         title: 'Internacionalización de aplicaciones React',
         description: 'En la actualidad es necesario que nuestras aplicaciones funcionen en un ámbito global, gente de diferentes culturas, idiomas y monedas van a usar nuestras aplicaciones y debemos estar preparados.',
         slides: '',
@@ -94,9 +94,18 @@ export default {
       },
       {
         image: 'Johann_Paul_Echavarria_Zapata.jpg',
-        schedule: '7 de Marzo, 7:15PM',
+        schedule: '7 de Marzo, 7:00PM',
         title: 'Rendimiento & React',
         description: 'Experimentos de performance con React.',
+        slides: '',
+        repository: '',
+        video: ''
+      },
+      {
+        image: 'Vanessa_Marely_Aristizabal.jpg',
+        schedule: '7 de Marzo, 7:30PM',
+        title: 'La reconciliación en React',
+        description: 'React es una de las librerías más usadas en la actualidad, su nombre proviene de su capacidad de crear interfaces de usuario reactivas. React realiza un proceso para la actualización de las vistas, donde evalúa qué componentes deben de ser actualizados, aunque este proceso puede ser un poco pesado, después de la evaluación inicia la reconciliación donde React mejora su rendimiento y renderiza el componente. En esta charla aprenderás el proceso que realiza React en la reconciliación y cómo evalúa qué componente es el que debe evaluar para actualizarlo en el Shadow DOM para mejorar su rendimiento.',
         slides: '',
         repository: '',
         video: ''
@@ -271,7 +280,15 @@ export default {
       description: 'Johann es un desarrollador de software con más de 14 años trabajando en el medio, es también magíster en ingeniería de software y maestro internacional de ajedrez. ',
       linkedin: 'https://www.linkedin.com/in/johann-paul-echavarr%C3%ADa-zapata-3a564023/',
       twitter: 'https://twitter.com/abrupto'
-    }
+    },
+    {
+      id: 16,
+      pic: 'Vanessa_Marely_Aristizabal.jpg',
+      name: 'Vanessa Marely Aristizabal',
+      description: 'Web UI Developer en Globant.Co - organizadora de GDG Medellín y She Codes Angular.Apasionada por los libros, las peliculas y el Anime.',
+      linkedin: 'https://www.linkedin.com/in/vanessa-marely-aristizabal-angel-9a190a34/',
+      twitter: 'https://twitter.com/vanessamarely'
+    },
   ],
   organization: {
     sponsorsTitle: 'Patrocina y Organiza',
