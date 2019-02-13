@@ -152,7 +152,7 @@ export default {
       id: 1,
       pic: 'KhriZtiaN_Moreno.jpg',
       name: 'Cristian Moreno Zuluaga',
-      description: 'Es un líder de la comunidad, orador altruista y trabaja como desarrollador Fullstack Javascript. Actualmente co-organiza Medellin.js. Le encanta desarrollar especialmente ideas, dándoles una nueva perspectiva y haciéndolas brillar!',
+      description: 'Es un líder de la comunidad, orador altruista y trabaja como desarrollador Fullstack Javascript. Actualmente co-organiza Medellin.js. Le encanta desarrollar ideas, dándoles una nueva perspectiva y haciéndolas brillar!',
       github: 'https://github.com/khriztianmoreno',
       linkedin: 'https://www.linkedin.com/in/khriztianmoreno/',
       facebook: 'https://www.facebook.com/khriztianmoreno',
@@ -218,10 +218,9 @@ export default {
       id: 9,
       pic: 'Santiago_Galvis_Riveros.jpg',
       name: 'Santiago Galvis Riveros',
-      description: 'Web UI Architect at @globant',
-      github: 'Pendiente',
-      facebook: 'Pendiente',
-      twitter: 'Pendiente'
+      description: 'Santiago es un arquitecto full stack apasionado por el desarrollor y la creación de soluciones practicas con un gran alcanze y escalabilidad.',
+      github: 'https://github.com/sgggepgdc',
+      linkedin: 'https://www.linkedin.com/in/santiago-g-b66bb6125/'
     },
     {
       id: 10,
