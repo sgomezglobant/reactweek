@@ -37,7 +37,7 @@
 
     &__wrapper {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       align-items: center;
       padding: 20px;
     }
@@ -47,7 +47,7 @@
       height: 70px;
       width: 70px;
       object-fit: cover;
-      margin: 0 15px;
+      margin-bottom: 15px;
     }
 
     &__information {
@@ -107,6 +107,9 @@
     .event-card {
       &__wrapper {
         flex-direction: row;
+      }
+      &__image {
+        margin: 0 15px;
       }
     }
 
