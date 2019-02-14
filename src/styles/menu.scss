@@ -35,4 +35,22 @@
       margin: 0;
     }
   }
+  @media screen and (min-width: 200px) and (max-width: 480px) {
+        &__content{
+            padding: 10px 0;
+        }
+        &__item {
+            font-size: 0.7rem;
+            font-weight: 400;
+            padding: 0 10px;
+            &:not(:last-child) {
+                border-right: 1px solid $rw-white-color;
+            }
+            &--image {
+                width: 36px;
+                height: 14px;
+                margin: 0;
+            }
+        } 
+    }
 }

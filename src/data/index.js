@@ -316,12 +316,6 @@ export default {
           'https://raw.githubusercontent.com/sgomezglobant/reactweek/gh-pages/static/gdg-logo2-49b3ae14a34113ca9ec3177f92a9499c.png',
         name: 'Google Developers Group Medellin',
         url: 'https://www.meetup.com/es-ES/GDG-Medellin/'
-      },
-      {
-        image:
-          'https://raw.githubusercontent.com/sgomezglobant/reactweek/gh-pages/static/pioneras-logo-2f87aec626434957b49d8cd346e25970.png',
-        name: 'PionerasDev',
-        url: 'http://pionerasdev.co/'
       }
     ]
   },
