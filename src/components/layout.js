@@ -22,8 +22,8 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Menu isFixed menu={localData.menu} />
         <Header siteTitle={data.site.siteMetadata.title} />
+        <Menu isFixed menu={localData.menu} />
         <main>{children}</main>
         <Footer />
         <Menu menu={localData.footerMenu} />

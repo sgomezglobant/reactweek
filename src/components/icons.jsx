@@ -1,5 +1,19 @@
 import React from 'react';
 
+export const LocationIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="50"
+    height="70"
+    viewBox="0 0 58 58"
+  >
+    <ellipse style={{fill: '#23A24D'}} cx="29" cy="50" rx="29" ry="8"/>
+    <path style={{fill: '#EBBA16'}} d="M41.676,5.324L41.676,5.324c-7.098-7.098-18.607-7.098-25.706,0h0
+      C9.574,11.72,8.855,23.763,14.282,31l14.541,21l14.541-21C48.792,23.763,48.072,11.72,41.676,5.324z M29,24c-3.314,0-6-2.686-6-6
+      s2.686-6,6-6s6,2.686,6,6S32.314,24,29,24z"/>
+  </svg>
+);
+
 export const ClockIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
