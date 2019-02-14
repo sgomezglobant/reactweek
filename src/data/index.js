@@ -207,7 +207,7 @@ export default {
       name: 'Carlos Álvaro González Echeverry',
       description: 'Carlos es un desarrollador de la ciudad de Pereira, especializado en Python y JavaScript. Actualmente se desempeña como desarrollador Frontend en Team International. También es músico.',
       github: 'https://github.com/caal-15',
-      linkdin: 'https://www.linkedin.com/in/carlos-gonzalez-078667171/',
+      linkedin: 'https://www.linkedin.com/in/carlos-gonzalez-078667171/',
       facebook: 'https://www.facebook.com/CarloS.GonzaleZ.E',
       twitter: 'https://twitter.com/caal_15'
     },
@@ -221,7 +221,10 @@ export default {
       id: 8,
       pic: 'Alejandro_Nanez_Ortiz.jpg',
       name: 'Alejandro Ñáñez Ortiz',
-      description: 'Frontend Engineer @ Zapier',
+      description: 'Frontend Engineer @ Zapier. Contribuidor OSS, Co-Organizador de @reactMedellin. Interesado en buenas prácticas, web performance y progressive web apps.',
+      github: 'https://github.com/alejandronanez',
+      twitter: 'https://twitter.com/alejandronanez',
+      linkedin: 'https://co.linkedin.com/in/alejandronanez/'
     },
     {
       id: 9,
