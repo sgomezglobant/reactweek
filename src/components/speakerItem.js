@@ -14,9 +14,11 @@ const SpeakerItem = ({ pic, name, description, github, facebook, twitter }) => {
           src={withPrefix(`speakers/${pic}`)}
           alt="Foto del speaker"
         />
-        <figcaption className="speakers-grid__name">{name}</figcaption>
+        <figcaption className="speakers-grid__name">
+          <span>{name}</span>
+        </figcaption>
       </figure>
-      <div className="speakers-grid__description">
+      {/* <div className="speakers-grid__description">
         <p className="speakers-grid__text">{description}</p>
         <div className="speakers-grid__social">
           <a
@@ -38,7 +40,7 @@ const SpeakerItem = ({ pic, name, description, github, facebook, twitter }) => {
             Twitter
           </a>
         </div>
-      </div>
+      </div> */}
     </article>
   );
 };
