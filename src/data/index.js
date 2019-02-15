@@ -346,13 +346,13 @@ export default {
   footerMenu: [
     {
       name: 'Política de Privacidad',
-      url: 'https://www.google.com.co',
+      url: 'https://www.globant.com/privacy-policy',
       image: 'null',
       target: '_self'
     },
     {
       name: 'Terminos de Servicio',
-      url: 'https://www.google.com.co',
+      url: ' https://www.globant.com/terms-and-conditions',
       image: 'pwalogo.png',
       target: '_blank'
     }
