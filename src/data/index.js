@@ -257,7 +257,7 @@ export default {
       id: 12,
       pic: 'Alex_Ramirez.jpg',
       name: 'Alex Ramirez',
-      description: 'Alex es un desarrollador FullStack con más de 13 años de experiencia en multiples lenguajes. Hasta hace poco, estuvo liderando una startup como CTO y actualmente desarrolla backend para aplicaciones móviles mientras colabora en la organización de @MedellinJS',
+      description: 'Alex es un desarrollador FullStack con más de 13 años de experiencia en multiples lenguajes. Lideró una startup como CTO y actualmente desarrolla backend para aplicaciones móviles mientras colabora en la organización de @MedellinJS',
       github: 'https://github.com/RamirezAlex',
       linkedin: 'https://www.linkedin.com/in/ramirezalex1/',
       facebook: 'https://www.facebook.com/ely.j.alvarado',
