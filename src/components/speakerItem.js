@@ -5,7 +5,15 @@ import './../styles/speakerItem.scss';
 
 // Speakears item component
 
-const SpeakerItem = ({ pic, name, description, github, facebook, twitter }) => {
+const SpeakerItem = ({
+  pic,
+  name,
+  description,
+  github,
+  facebook,
+  twitter,
+  linkedin,
+}) => {
   return (
     <article className="speakers-grid__item">
       <figure className="speakers-grid__figure">
@@ -19,24 +27,38 @@ const SpeakerItem = ({ pic, name, description, github, facebook, twitter }) => {
       <div className="speakers-grid__description">
         <p className="speakers-grid__text">{description}</p>
         <div className="speakers-grid__social">
-          <a
-            href={github}
-            className="speakers-grid__link speakers-grid__link--github"
-          >
-            Github
-          </a>
-          <a
-            href={facebook}
-            className="speakers-grid__link speakers-grid__link--facebook"
-          >
-            Facebook
-          </a>
-          <a
-            href={twitter}
-            className="speakers-grid__link speakers-grid__link--twitter"
-          >
-            Twitter
-          </a>
+          {!!github && (
+            <a
+              href={github}
+              className="speakers-grid__link speakers-grid__link--github"
+            >
+              Github
+            </a>
+          )}
+          {!!facebook && (
+            <a
+              href={facebook}
+              className="speakers-grid__link speakers-grid__link--facebook"
+            >
+              Facebook
+            </a>
+          )}
+          {!!twitter && (
+            <a
+              href={twitter}
+              className="speakers-grid__link speakers-grid__link--twitter"
+            >
+              Twitter
+            </a>
+          )}
+          {!!linkedin && (
+            <a
+              href={linkedin}
+              className="speakers-grid__link speakers-grid__link--linkedin"
+            >
+              linkedin
+            </a>
+          )}
         </div>
       </div>
     </article>
@@ -50,6 +72,7 @@ SpeakerItem.propTypes = {
   github: PropTypes.string,
   facebook: PropTypes.string,
   twitter: PropTypes.string,
+  linkedin: PropTypes.string,
 };
 
 export default SpeakerItem;
