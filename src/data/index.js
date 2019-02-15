@@ -1,4 +1,5 @@
 export default {
+  eventbriteLink: 'https://www.eventbrite.com/e/development-week-react-tickets-55975911458',
   schedule: {
     title: 'Agenda',
     talks: [
