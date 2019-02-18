@@ -1,4 +1,5 @@
 export default {
+  eventbriteLink: 'https://www.eventbrite.com/e/development-week-react-tickets-55975911458',
   schedule: {
     title: 'Agenda',
     talks: [
@@ -76,7 +77,7 @@ export default {
       },
       {
         image: 'Ely_Alvarado.jpg',
-        schedule: '7 de Marzo, 6:15PM',
+        schedule: '7 de Marzo, 6:00PM',
         title: 'Side-effects en Redux con RxJS y redux-observable',
         description: 'RxJS es la librería más popular para programación reactiva en Javascript. En esta charla explicaré como podemos integrarla usando redux-observable en una aplicación React, y los patrones más comunes de uso de observables en el manejo de llamadas a red, navegación y otros.',
         slides: '',
@@ -85,7 +86,7 @@ export default {
       },
       {
         image: 'Alex_Ramirez.jpg',
-        schedule: '7 de Marzo, 6:45PM',
+        schedule: '7 de Marzo, 6:30PM',
         title: 'Internacionalización de aplicaciones React',
         description: 'En la actualidad es necesario que nuestras aplicaciones funcionen en un ámbito global, gente de diferentes culturas, idiomas y monedas van a usar nuestras aplicaciones y debemos estar preparados.',
         slides: '',
@@ -94,9 +95,18 @@ export default {
       },
       {
         image: 'Johann_Paul_Echavarria_Zapata.jpg',
-        schedule: '7 de Marzo, 7:15PM',
+        schedule: '7 de Marzo, 7:00PM',
         title: 'Rendimiento & React',
         description: 'Experimentos de performance con React.',
+        slides: '',
+        repository: '',
+        video: ''
+      },
+      {
+        image: 'Vanessa_Marely_Aristizabal.jpg',
+        schedule: '7 de Marzo, 7:30PM',
+        title: 'La reconciliación en React',
+        description: 'React es una de las librerías más usadas en la actualidad, su nombre proviene de su capacidad de crear interfaces de usuario reactivas. React realiza un proceso para la actualización de las vistas, donde evalúa qué componentes deben de ser actualizados, aunque este proceso puede ser un poco pesado, después de la evaluación inicia la reconciliación donde React mejora su rendimiento y renderiza el componente. En esta charla aprenderás el proceso que realiza React en la reconciliación y cómo evalúa qué componente es el que debe evaluar para actualizarlo en el Shadow DOM para mejorar su rendimiento.',
         slides: '',
         repository: '',
         video: ''
@@ -198,7 +208,7 @@ export default {
       name: 'Carlos Álvaro González Echeverry',
       description: 'Carlos es un desarrollador de la ciudad de Pereira, especializado en Python y JavaScript. Actualmente se desempeña como desarrollador Frontend en Team International. También es músico.',
       github: 'https://github.com/caal-15',
-      linkdin: 'https://www.linkedin.com/in/carlos-gonzalez-078667171/',
+      linkedin: 'https://www.linkedin.com/in/carlos-gonzalez-078667171/',
       facebook: 'https://www.facebook.com/CarloS.GonzaleZ.E',
       twitter: 'https://twitter.com/caal_15'
     },
@@ -212,7 +222,10 @@ export default {
       id: 8,
       pic: 'Alejandro_Nanez_Ortiz.jpg',
       name: 'Alejandro Ñáñez Ortiz',
-      description: 'Frontend Engineer @ Zapier',
+      description: 'Frontend Engineer @ Zapier. Contribuidor OSS, Co-Organizador de @reactMedellin. Interesado en buenas prácticas, web performance y progressive web apps.',
+      github: 'https://github.com/alejandronanez',
+      twitter: 'https://twitter.com/alejandronanez',
+      linkedin: 'https://co.linkedin.com/in/alejandronanez/'
     },
     {
       id: 9,
@@ -245,7 +258,11 @@ export default {
       id: 12,
       pic: 'Alex_Ramirez.jpg',
       name: 'Alex Ramirez',
-      description: 'Software Developer & Blockchain Padawan. co-organizer of @MedellinJS',
+      description: 'Alex es un desarrollador FullStack con más de 13 años de experiencia en multiples lenguajes. Lideró una startup como CTO y actualmente desarrolla backend para aplicaciones móviles mientras colabora en la organización de @MedellinJS',
+      github: 'https://github.com/RamirezAlex',
+      linkedin: 'https://www.linkedin.com/in/ramirezalex1/',
+      facebook: 'https://www.facebook.com/ely.j.alvarado',
+      twitter: 'https://twitter.com/RamirezAlex_'
     },
     {
       id: 13,
@@ -271,7 +288,15 @@ export default {
       description: 'Johann es un desarrollador de software con más de 14 años trabajando en el medio, es también magíster en ingeniería de software y maestro internacional de ajedrez. ',
       linkedin: 'https://www.linkedin.com/in/johann-paul-echavarr%C3%ADa-zapata-3a564023/',
       twitter: 'https://twitter.com/abrupto'
-    }
+    },
+    {
+      id: 16,
+      pic: 'Vanessa_Marely_Aristizabal.jpg',
+      name: 'Vanessa Marely Aristizabal',
+      description: 'Web UI Developer en Globant.Co - organizadora de GDG Medellín y She Codes Angular.Apasionada por los libros, las peliculas y el Anime.',
+      linkedin: 'https://www.linkedin.com/in/vanessa-marely-aristizabal-angel-9a190a34/',
+      twitter: 'https://twitter.com/vanessamarely'
+    },
   ],
   organization: {
     sponsorsTitle: 'Patrocina y Organiza',
@@ -296,12 +321,6 @@ export default {
           'https://raw.githubusercontent.com/sgomezglobant/reactweek/gh-pages/static/gdg-logo2-49b3ae14a34113ca9ec3177f92a9499c.png',
         name: 'Google Developers Group Medellin',
         url: 'https://www.meetup.com/es-ES/GDG-Medellin/'
-      },
-      {
-        image:
-          'https://raw.githubusercontent.com/sgomezglobant/reactweek/gh-pages/static/pioneras-logo-2f87aec626434957b49d8cd346e25970.png',
-        name: 'PionerasDev',
-        url: 'http://pionerasdev.co/'
       }
     ]
   },
@@ -328,13 +347,13 @@ export default {
   footerMenu: [
     {
       name: 'Política de Privacidad',
-      url: 'https://www.google.com.co',
+      url: 'https://www.globant.com/privacy-policy',
       image: 'null',
       target: '_self'
     },
     {
       name: 'Terminos de Servicio',
-      url: 'https://www.google.com.co',
+      url: ' https://www.globant.com/terms-and-conditions',
       image: 'pwalogo.png',
       target: '_blank'
     }
