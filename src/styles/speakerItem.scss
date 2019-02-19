@@ -14,12 +14,6 @@
   font-family: $page-font;
   @media (min-width: 768px) {
     &:hover {
-      // .speakers-grid__description {
-      //   opacity: 1;
-      //   transition: opacity .15s ease-in;
-      //   transition: transform 660ms cubic-bezier(0.215, 0.61, 0.355, 1);
-      //   transform: translateY(0);
-      // }
       .speakers-grid__img {
         filter: none;
       }
@@ -63,13 +57,6 @@
 }
 
 .speakers-grid__name {
-  // text-align: center;
-  // line-height: 1.2;
-  // font-size: 0.8em;
-  // color: $rw-black-color;
-  // font-weight: bold;
-  // position: absolute;
-
   bottom: 0;
   color: #fff;
   left: 0;
@@ -100,6 +87,12 @@
   }
 }
 
+.speakers-grid__clickable {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
 .speakers-grid__img {
   object-fit: cover;
   width: 100%;
@@ -110,24 +103,151 @@
   transition: filter .5s;
 }
 
-.speakers-grid__description {
-  padding: 20px;
-  background: $rw-green-degrade-color;
-  position: absolute;
-  top: 0;
-  // left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  // transform: translateY(-100%);
-  display: flex;
-  flex-flow: column;
-  justify-content: space-between;
+.speakers-grid__description{
+  display: none;
+  position: fixed;
+  padding: 0 2rem;
+  top: 50%;
+  z-index: 9;
+  transform: translateX(50%) translateY(-50%);
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
 
-  // @media (min-width: 768px) {
-    // transition: transform 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
-  // }
+  width: 90%;
+  left: -40%;
+  height: 90%;
+
+  @media (min-width: 768px) {
+    width: 50%;
+    height: 75%;
+    left: 0;
+  }
+
+  &--is-active[id^="name"] {
+    display: flex;
+
+    button {
+      display: block;
+    }
+  }
+
+  &:before {
+    content: "";
+    box-sizing: border-box;
+    width: 0;
+    height: 100%;
+    background-color: #fff;
+    position: fixed;
+    will-change: width, top;
+    animation: open-animation .6s cubic-bezier(0.83, 0.04, 0, 1.16) .65s both;
+  }
+
+  &:after {
+    content: "";
+    width: 2px;
+    height: 0;
+    background-color: #f0f0f0;
+    will-change: height, opacity;
+    animation: line-animation .6s cubic-bezier(0.83, 0.04, 0, 1.16) both;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-top: -1px;
+  }
+
+  &__block {
+    height: calc(100vh - 40px);
+    padding: 5% 15%;
+    box-sizing: border-box;
+    position: relative;
+  
+    margin: auto;
+    overflow: auto;
+    animation: fade .5s ease-out 1.3s both;
+  }
+
+  &__close {
+    border: none;
+    outline: none;
+    width: 3.2rem;
+    height: 3.2rem;
+    text-indent: -9999px;
+    z-index: 10;
+    display: none;
+    
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTE5IDYuNDFMMTcuNTkgNSAxMiAxMC41OSA2LjQxIDUgNSA2LjQxIDEwLjU5IDEyIDUgMTcuNTkgNi40MSAxOSAxMiAxMy40MSAxNy41OSAxOSAxOSAxNy41OSAxMy40MSAxMnoiLz4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==);
+  }
+
+  & > * {
+    z-index: 9;
+    animation: fade .5s ease-out 1s both;
+  }
+
+  &__image {
+    width: 150px;
+    margin: 0;
+  }
+
+  &__name {
+    color: $rw-black-color;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+  &__text {
+    color: $rw-black-color;
+    font-size: 0.8rem;
+  }
+}
+
+@keyframes line-animation{
+
+  0%{
+    height: 0;
+    opacity: 1;
+  }
+
+  99%{
+    height: 100%;
+    opacity: 1;
+  }
+
+  100%{
+    height: 100%;
+    opacity: 0;
+  }  
+}
+
+@keyframes open-animation{
+
+  0%{
+    width: 0;
+    left: 50%;
+  }
+
+  100%{
+    width: 100%;
+    left: 0;
+  }
+}
+
+@keyframes fade{
+
+  0%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 1;
+  }
 }
 
 .speakers-grid__text {
@@ -140,8 +260,9 @@
 .speakers-grid__social {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  margin: 0 1rem;
 }
 
 .speakers-grid__link {
@@ -152,6 +273,8 @@
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
+  filter: brightness(0.1);
+  margin: 0 1rem;
 
   &:hover {
     transition: transform 100ms ease;
