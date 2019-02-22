@@ -3,9 +3,9 @@
 .rw-organization {
   &__content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
-    align-items: baseline;
+    align-items: center;
   }
   &-item {
     display: inline-block;

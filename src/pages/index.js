@@ -12,6 +12,8 @@ import Organization from '../components/organization';
 import Volunteers from '../components/volunteers';
 import RegisterButton from '../components/registerButton';
 
+import { LocationIcon } from '../components/icons';
+
 import '../styles/page.scss';
 
 const IndexPage = () => (
@@ -28,11 +30,13 @@ const IndexPage = () => (
     />
     <Schedule />
     <Speakers />
-    <Organization />
-    <Map />
     <div className="rw-call-to-action">
+      <LocationIcon />
+      <h3 className="rw-section__title">Lugar</h3>
       <RegisterButton />
+      <Map />
     </div>
+    <Organization />
     <Volunteers />
   </Layout>
 );
