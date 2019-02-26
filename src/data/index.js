@@ -333,15 +333,9 @@ export default {
     },
     {
       name: 'código de conducta',
-      url: 'https://www.google.com.co',
+      url: 'https://jsconf.com/codeofconduct.html',
       image: 'null',
       target: '_blank'
-    },
-    {
-      name: 'instala la PWA del evento',
-      url: 'https://www.google.com.co',
-      image: 'pwalogo.png',
-      target: '_self'
     }
   ],
   footerMenu: [
