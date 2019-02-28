@@ -24,12 +24,12 @@ module.exports = {
         start_url: `/`,
         background_color: `#7eb51e`,
         theme_color: `#7eb51e`,
-        display: `minimal-ui`,
+        display: `standalone`,
         icon: `src/images/reactweek-logo.png` // This path is relative to the root of the site.
       }
-    }
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
+    'gatsby-plugin-offline'
   ]
 };
