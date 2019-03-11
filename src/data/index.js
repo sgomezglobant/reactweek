@@ -10,9 +10,10 @@ export default {
         title: "React Hooks + React Context. ¿No más Redux?",
         description:
           "Veamos cómo utilizar la nueva  y no oficial API de Hooks, junto con Context para recrear una arquitectura muy similar a la que nos ofrece Redux.",
-        slides: "",
+        slides:
+          "https://drive.google.com/open?id=1V8VkWCohFBb0jwdblYXxDfe2qGhUXW3D",
         repository: "",
-        video: ""
+        video: "https://www.youtube.com/watch?v=kvn4Y_uwwm4"
       },
       {
         image: "Oscar_Andres_Granada.jpg",
@@ -20,9 +21,10 @@ export default {
         title: "React para desarrolladores JavaScript",
         description:
           "React es una de las librerías mas famosas en la web actual, sin embargo, mucha gente ignora que toda la magia de React funciona gracias a las increíbles características de ECMAScript. Esta charla es para mostrar como podemos usar ES2015+ para crear mejores componentes React.",
-        slides: "",
+        slides:
+          "https://drive.google.com/open?id=1V8VkWCohFBb0jwdblYXxDfe2qGhUXW3D",
         repository: "",
-        video: ""
+        video: "https://www.youtube.com/watch?v=kvn4Y_uwwm4"
       },
       {
         image: "Johnny_Iv_Young_Ospino.jpg",
@@ -31,8 +33,9 @@ export default {
           "StoryBook: El entorno de desarrollo de UI que te encantará usar ♥️",
         description:
           "Storybook es un ambiente de desarrollo para componentes UI construido usando frameworks JavaScript incluyendo React, Vue, Angular y Svelte. Brinda algunas opciones únicas para visualizar el estado interactivo de tu aplicación, de la mano de un conjunto extensivo de addons.",
-        slides: "",
-        video: ""
+        slides:
+          "https://drive.google.com/open?id=1V8VkWCohFBb0jwdblYXxDfe2qGhUXW3D",
+        video: "https://www.youtube.com/watch?v=kvn4Y_uwwm4"
       },
       {
         image: "Carlos_Gonzalez.jpg",
@@ -40,9 +43,10 @@ export default {
         title: "React Native, Desarrolla Aplicaciones Nativas usando JS",
         description:
           "En esta charla los asistentes aprenderán los conceptos básicos de React Native, su diferencia con otras plataformas, y todas las bases necesarias para aprender a desarrollar aplicativos móviles usando React Native.",
-        slides: "",
+        slides:
+          "https://drive.google.com/open?id=1V8VkWCohFBb0jwdblYXxDfe2qGhUXW3D",
         repository: "",
-        video: ""
+        video: "https://www.youtube.com/watch?v=kvn4Y_uwwm4"
       },
       {
         image: "Mauricio_Arroyave.jpg",
@@ -50,9 +54,10 @@ export default {
         title: "Navegación a fondo para React Native",
         description:
           "En esta charla hablaremos de navegación en React Native y de como podemos enlazar diferentes tipo de navegación como navegación de cajón, en pila o por tabs.",
-        slides: "",
+        slides:
+          "https://drive.google.com/open?id=1BibajQNGlNrk2skvfzOHiuiUKlqJ3Pf9",
         repository: "",
-        video: ""
+        video: "https://www.youtube.com/watch?v=mxRzi8trm0c&t=25s"
       },
       {
         image: "Elsa_Katherine_Olivares_Calderon.jpg",
@@ -60,9 +65,10 @@ export default {
         title: "React Context vs Mobx",
         description:
           "En esta charla veremos la diferencia entre React Context y Mobx, una visión general de cada uno y en qué casos se pueden utilizar.",
-        slides: "",
+        slides:
+          "https://drive.google.com/open?id=1BibajQNGlNrk2skvfzOHiuiUKlqJ3Pf9",
         repository: "",
-        video: ""
+        video: "https://www.youtube.com/watch?v=mxRzi8trm0c&t=25s"
       },
       {
         image: "Santiago_Galvis_Riveros.jpg",
@@ -70,9 +76,10 @@ export default {
         title: "Fundamentos de Angular & React",
         description:
           "Principios y fundamentos básicos para integrar Angular y React.",
-        slides: "",
+        slides:
+          "https://drive.google.com/open?id=1BibajQNGlNrk2skvfzOHiuiUKlqJ3Pf9",
         repository: "",
-        video: ""
+        video: "https://www.youtube.com/watch?v=mxRzi8trm0c&t=25s"
       },
       {
         image: "Roberto_Rojas_Fernandez.jpg",
@@ -80,9 +87,10 @@ export default {
         title: "Integrando React con Azure Cognitive Services",
         description:
           "Una visión general de como usar diferentes servicios de Azure Cognitive Services en una aplicación hecha con React.",
-        slides: "",
+        slides:
+          "https://drive.google.com/open?id=1BibajQNGlNrk2skvfzOHiuiUKlqJ3Pf9",
         repository: "",
-        video: ""
+        video: "https://www.youtube.com/watch?v=mxRzi8trm0c&t=25s"
       },
       {
         image: "Ely_Alvarado.jpg",
@@ -90,9 +98,10 @@ export default {
         title: "Side-effects en Redux con RxJS y redux-observable",
         description:
           "RxJS es la librería más popular para programación reactiva en Javascript. En esta charla explicaré como podemos integrarla usando redux-observable en una aplicación React, y los patrones más comunes de uso de observables en el manejo de llamadas a red, navegación y otros.",
-        slides: "",
+        slides:
+          "https://drive.google.com/open?id=1bkc2yosz7-I2zF5y_JCSCmq4S1ong94l",
         repository: "",
-        video: ""
+        video: "https://www.youtube.com/watch?v=WC0WkxGeSQc"
       },
       {
         image: "Alex_Ramirez.jpg",
@@ -100,18 +109,20 @@ export default {
         title: "Internacionalización de aplicaciones React",
         description:
           "En la actualidad es necesario que nuestras aplicaciones funcionen en un ámbito global, gente de diferentes culturas, idiomas y monedas van a usar nuestras aplicaciones y debemos estar preparados.",
-        slides: "",
+        slides:
+          "https://drive.google.com/open?id=1bkc2yosz7-I2zF5y_JCSCmq4S1ong94l",
         repository: "",
-        video: ""
+        video: "https://www.youtube.com/watch?v=WC0WkxGeSQc"
       },
       {
         image: "Johann_Paul_Echavarria_Zapata.jpg",
         schedule: "7 de Marzo, 7:00PM",
         title: "Rendimiento & React",
         description: "Experimentos de performance con React.",
-        slides: "",
+        slides:
+          "https://drive.google.com/open?id=1bkc2yosz7-I2zF5y_JCSCmq4S1ong94l",
         repository: "",
-        video: ""
+        video: "https://www.youtube.com/watch?v=WC0WkxGeSQc"
       },
       {
         image: "Vanessa_Marely_Aristizabal.jpg",
@@ -119,9 +130,10 @@ export default {
         title: "La reconciliación en React",
         description:
           "React es una de las librerías más usadas en la actualidad, su nombre proviene de su capacidad de crear interfaces de usuario reactivas. React realiza un proceso para la actualización de las vistas, donde evalúa qué componentes deben de ser actualizados, aunque este proceso puede ser un poco pesado, después de la evaluación inicia la reconciliación donde React mejora su rendimiento y renderiza el componente. En esta charla aprenderás el proceso que realiza React en la reconciliación y cómo evalúa qué componente es el que debe evaluar para actualizarlo en el Shadow DOM para mejorar su rendimiento.",
-        slides: "",
+        slides:
+          "https://drive.google.com/open?id=1bkc2yosz7-I2zF5y_JCSCmq4S1ong94l",
         repository: "",
-        video: ""
+        video: "https://www.youtube.com/watch?v=WC0WkxGeSQc"
       },
       {
         image: "Fabio_Cortes.jpg",
@@ -129,9 +141,10 @@ export default {
         title: "Explorando la transición de React VR a React 360",
         description:
           "En esta charla hablaremos un poco de la historia de React 360, antes conocida como React VR y de como podemos crear increíbles experiencias interactivas en nuestro navegador apoyados en tecnologias como WebGL y WebVR con el ya conocido poder de React.",
-        slides: "",
+        slides:
+          "https://drive.google.com/open?id=1adW-smvT-ErD2GZtAnY3UbHT62HakNo1",
         repository: "",
-        video: ""
+        video: "https://www.youtube.com/watch?v=w4tQYTeqyi4"
       },
       {
         image: "Alejandro_Nanez_Ortiz.jpg",
@@ -140,9 +153,10 @@ export default {
           "Deja de repetir código en tus aplicaciones. Monorepos al rescate!",
         description:
           "Hablemos de como puedes aprovechar el poder de Monorepos para empezar a compartir código entre tus aplicaciones JavaScript con facilidad, dejando de manejar diferentes repositorios con procesos de compilación y despliegue. Los Monorepos son la solución!",
-        slides: "",
+        slides:
+          "https://drive.google.com/open?id=1adW-smvT-ErD2GZtAnY3UbHT62HakNo1",
         repository: "",
-        video: ""
+        video: "https://www.youtube.com/watch?v=w4tQYTeqyi4"
       },
       {
         image: "Carlos_Gonzalez.jpg",
@@ -150,9 +164,10 @@ export default {
         title: "Creando un pequeño manejador de estados usando la API Context",
         description:
           "En esta charla veremos como crear un pequeño manejador de estado usando la API Context para conocer a profundidad su funcionamiento interno y afianzar algunos conceptos básicos como el flujo de datos en una sola vía de React y fundamentos de programación funcional en JavaScript.",
-        slides: "",
+        slides:
+          "https://drive.google.com/open?id=1adW-smvT-ErD2GZtAnY3UbHT62HakNo1",
         repository: "",
-        video: ""
+        video: "https://www.youtube.com/watch?v=w4tQYTeqyi4"
       },
       {
         image: "Alejandro_Garcia_Serna.jpg",
@@ -160,9 +175,10 @@ export default {
         title: "Simplifica el manejo de tu estado con MobX",
         description:
           "Manejar el estado de nuestras aplicaciones puede requerir de mucho boilerplate, MobX nos permite manejar modelos de datos complejos de una manera simple y eficiente.",
-        slides: "",
+        slides:
+          "https://drive.google.com/open?id=1adW-smvT-ErD2GZtAnY3UbHT62HakNo1",
         repository: "",
-        video: ""
+        video: "https://www.youtube.com/watch?v=w4tQYTeqyi4"
       },
       {
         image: "KhriZtiaN_Moreno.jpg",
@@ -170,8 +186,8 @@ export default {
         title: "Consumiendo datos GraphQL en React con Apollo Client",
         description:
           "Este taller te proporcionará una introducción clara pero completa sobre cómo obtener y actualizar datos remotos desde un endpoint GraphQL, así como la administración del estado local utilizando Apollo Client en combinación con React.",
-        slides: "",
-        video: ""
+        repository:
+          "https://github.com/khriztianmoreno/apollo-client-workshop-react"
       }
     ]
   },
@@ -451,5 +467,5 @@ export default {
     name: "Centro de Negocios Vizcaya",
     address: "Calle 10 # 32 - 115 Local 123A"
   },
-  livestream: "https://www.youtube.com/user/Globant"
+  livestream: "https://www.youtube.com/watch?v=kvn4Y_uwwm4&t=1s"
 };
