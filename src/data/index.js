@@ -13,7 +13,8 @@ export default {
         slides:
           "https://drive.google.com/open?id=1V8VkWCohFBb0jwdblYXxDfe2qGhUXW3D",
         repository: "",
-        video: "https://www.youtube.com/watch?v=kvn4Y_uwwm4"
+        video:
+          "https://www.youtube.com/watch?v=ja5InIsFfOQ&list=PLWWBZaul8Ahxxzx8JTQuqI8kRyEEIcPmp"
       },
       {
         image: "Oscar_Andres_Granada.jpg",
@@ -24,7 +25,8 @@ export default {
         slides:
           "https://drive.google.com/open?id=1V8VkWCohFBb0jwdblYXxDfe2qGhUXW3D",
         repository: "",
-        video: "https://www.youtube.com/watch?v=kvn4Y_uwwm4"
+        video:
+          "https://www.youtube.com/watch?v=ja5InIsFfOQ&list=PLWWBZaul8Ahxxzx8JTQuqI8kRyEEIcPmp"
       },
       {
         image: "Johnny_Iv_Young_Ospino.jpg",
@@ -35,7 +37,8 @@ export default {
           "Storybook es un ambiente de desarrollo para componentes UI construido usando frameworks JavaScript incluyendo React, Vue, Angular y Svelte. Brinda algunas opciones únicas para visualizar el estado interactivo de tu aplicación, de la mano de un conjunto extensivo de addons.",
         slides:
           "https://drive.google.com/open?id=1V8VkWCohFBb0jwdblYXxDfe2qGhUXW3D",
-        video: "https://www.youtube.com/watch?v=kvn4Y_uwwm4"
+        video:
+          "https://www.youtube.com/watch?v=ja5InIsFfOQ&list=PLWWBZaul8Ahxxzx8JTQuqI8kRyEEIcPmp"
       },
       {
         image: "Carlos_Gonzalez.jpg",
@@ -46,7 +49,8 @@ export default {
         slides:
           "https://drive.google.com/open?id=1V8VkWCohFBb0jwdblYXxDfe2qGhUXW3D",
         repository: "",
-        video: "https://www.youtube.com/watch?v=kvn4Y_uwwm4"
+        video:
+          "https://www.youtube.com/watch?v=ja5InIsFfOQ&list=PLWWBZaul8Ahxxzx8JTQuqI8kRyEEIcPmp"
       },
       {
         image: "Mauricio_Arroyave.jpg",
@@ -57,7 +61,8 @@ export default {
         slides:
           "https://drive.google.com/open?id=1BibajQNGlNrk2skvfzOHiuiUKlqJ3Pf9",
         repository: "",
-        video: "https://www.youtube.com/watch?v=mxRzi8trm0c&t=25s"
+        video:
+          "https://www.youtube.com/watch?v=ja5InIsFfOQ&list=PLWWBZaul8Ahxxzx8JTQuqI8kRyEEIcPmp"
       },
       {
         image: "Elsa_Katherine_Olivares_Calderon.jpg",
@@ -68,7 +73,8 @@ export default {
         slides:
           "https://drive.google.com/open?id=1BibajQNGlNrk2skvfzOHiuiUKlqJ3Pf9",
         repository: "",
-        video: "https://www.youtube.com/watch?v=mxRzi8trm0c&t=25s"
+        video:
+          "https://www.youtube.com/watch?v=ja5InIsFfOQ&list=PLWWBZaul8Ahxxzx8JTQuqI8kRyEEIcPmp"
       },
       {
         image: "Santiago_Galvis_Riveros.jpg",
@@ -79,7 +85,8 @@ export default {
         slides:
           "https://drive.google.com/open?id=1BibajQNGlNrk2skvfzOHiuiUKlqJ3Pf9",
         repository: "",
-        video: "https://www.youtube.com/watch?v=mxRzi8trm0c&t=25s"
+        video:
+          "https://www.youtube.com/watch?v=ja5InIsFfOQ&list=PLWWBZaul8Ahxxzx8JTQuqI8kRyEEIcPmp"
       },
       {
         image: "Roberto_Rojas_Fernandez.jpg",
@@ -90,7 +97,8 @@ export default {
         slides:
           "https://drive.google.com/open?id=1BibajQNGlNrk2skvfzOHiuiUKlqJ3Pf9",
         repository: "",
-        video: "https://www.youtube.com/watch?v=mxRzi8trm0c&t=25s"
+        video:
+          "https://www.youtube.com/watch?v=ja5InIsFfOQ&list=PLWWBZaul8Ahxxzx8JTQuqI8kRyEEIcPmp"
       },
       {
         image: "Ely_Alvarado.jpg",
@@ -101,7 +109,8 @@ export default {
         slides:
           "https://drive.google.com/open?id=1bkc2yosz7-I2zF5y_JCSCmq4S1ong94l",
         repository: "",
-        video: "https://www.youtube.com/watch?v=WC0WkxGeSQc"
+        video:
+          "https://www.youtube.com/watch?v=F_62DS6CcGg&list=PLWWBZaul8Ahxxzx8JTQuqI8kRyEEIcPmp&index=3"
       },
       {
         image: "Alex_Ramirez.jpg",
@@ -112,7 +121,8 @@ export default {
         slides:
           "https://drive.google.com/open?id=1bkc2yosz7-I2zF5y_JCSCmq4S1ong94l",
         repository: "",
-        video: "https://www.youtube.com/watch?v=WC0WkxGeSQc"
+        video:
+          "https://www.youtube.com/watch?v=F_62DS6CcGg&list=PLWWBZaul8Ahxxzx8JTQuqI8kRyEEIcPmp&index=3"
       },
       {
         image: "Johann_Paul_Echavarria_Zapata.jpg",
@@ -122,7 +132,8 @@ export default {
         slides:
           "https://drive.google.com/open?id=1bkc2yosz7-I2zF5y_JCSCmq4S1ong94l",
         repository: "",
-        video: "https://www.youtube.com/watch?v=WC0WkxGeSQc"
+        video:
+          "https://www.youtube.com/watch?v=F_62DS6CcGg&list=PLWWBZaul8Ahxxzx8JTQuqI8kRyEEIcPmp&index=3"
       },
       {
         image: "Vanessa_Marely_Aristizabal.jpg",
@@ -133,7 +144,8 @@ export default {
         slides:
           "https://drive.google.com/open?id=1bkc2yosz7-I2zF5y_JCSCmq4S1ong94l",
         repository: "",
-        video: "https://www.youtube.com/watch?v=WC0WkxGeSQc"
+        video:
+          "https://www.youtube.com/watch?v=F_62DS6CcGg&list=PLWWBZaul8Ahxxzx8JTQuqI8kRyEEIcPmp&index=3"
       },
       {
         image: "Fabio_Cortes.jpg",
@@ -144,7 +156,8 @@ export default {
         slides:
           "https://drive.google.com/open?id=1adW-smvT-ErD2GZtAnY3UbHT62HakNo1",
         repository: "",
-        video: "https://www.youtube.com/watch?v=w4tQYTeqyi4"
+        video:
+          "https://www.youtube.com/watch?v=2bY0YVd8LGk&index=4&list=PLWWBZaul8Ahxxzx8JTQuqI8kRyEEIcPmp"
       },
       {
         image: "Alejandro_Nanez_Ortiz.jpg",
@@ -156,7 +169,8 @@ export default {
         slides:
           "https://drive.google.com/open?id=1adW-smvT-ErD2GZtAnY3UbHT62HakNo1",
         repository: "",
-        video: "https://www.youtube.com/watch?v=w4tQYTeqyi4"
+        video:
+          "https://www.youtube.com/watch?v=2bY0YVd8LGk&index=4&list=PLWWBZaul8Ahxxzx8JTQuqI8kRyEEIcPmp"
       },
       {
         image: "Carlos_Gonzalez.jpg",
@@ -167,7 +181,8 @@ export default {
         slides:
           "https://drive.google.com/open?id=1adW-smvT-ErD2GZtAnY3UbHT62HakNo1",
         repository: "",
-        video: "https://www.youtube.com/watch?v=w4tQYTeqyi4"
+        video:
+          "https://www.youtube.com/watch?v=2bY0YVd8LGk&index=4&list=PLWWBZaul8Ahxxzx8JTQuqI8kRyEEIcPmp"
       },
       {
         image: "Alejandro_Garcia_Serna.jpg",
@@ -178,7 +193,8 @@ export default {
         slides:
           "https://drive.google.com/open?id=1adW-smvT-ErD2GZtAnY3UbHT62HakNo1",
         repository: "",
-        video: "https://www.youtube.com/watch?v=w4tQYTeqyi4"
+        video:
+          "https://www.youtube.com/watch?v=2bY0YVd8LGk&index=4&list=PLWWBZaul8Ahxxzx8JTQuqI8kRyEEIcPmp"
       },
       {
         image: "KhriZtiaN_Moreno.jpg",
@@ -467,5 +483,6 @@ export default {
     name: "Centro de Negocios Vizcaya",
     address: "Calle 10 # 32 - 115 Local 123A"
   },
-  livestream: "https://www.youtube.com/watch?v=kvn4Y_uwwm4&t=1s"
+  livestream:
+    "https://www.youtube.com/watch?v=ja5InIsFfOQ&list=PLWWBZaul8Ahxxzx8JTQuqI8kRyEEIcPmp&t=1s"
 };
